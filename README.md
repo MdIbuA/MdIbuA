@@ -10,4 +10,4 @@
 
 😄 Pronouns: He/Him
 
-⚡ Fun fact: I translate speeches of Islamic scholars, actively donate blood, participate in quiz events, and love building innovative tech solutions!
+⚡ Fun fact: I translate speeches from english to tamil, actively donate blood, participate in quiz events, and love building innovative tech solutions!
