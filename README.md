@@ -1,12 +1,13 @@
-- 👋 Hi, I’m @MdIbu
-- 👀 I’m interested in Emerging Technologies
-- 🌱 I’m currently learning Quantum Computing
-- 💞️ I’m looking to collaborate on Tech projects
-- 📫 How to reach me ...
-- 😄 Pronouns: he
-- ⚡ Fun fact: ...
+👋 Hi, I’m @MdIbu
 
-<!---
-MdIbuA/MdIbuA is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+👀 I’m interested in Emerging Technologies, including Quantum Computing, AI, Edge Computing, and Cloud Computing.
+
+🌱 I’m currently learning Quantum Computing and expanding my expertise in cutting-edge technologies.
+
+💞 I’m looking to collaborate on Tech projects, especially in AI, Quantum Computing, and Software Development.
+
+📫 How to reach me: https://www.linkedin.com/in/mohamed-ibrahim-al-abdullah-748791262/
+
+😄 Pronouns: He/Him
+
+⚡ Fun fact: I translate speeches of Islamic scholars, actively donate blood, participate in quiz events, and love building innovative tech solutions!
