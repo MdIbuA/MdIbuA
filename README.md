@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=3000&color=F72585,7209B7,3A0CA3,4361EE,4CC9F0&center=true&vCenter=true&width=600&height=50&lines=🚀+Hello,+Welcome!+This+is+Ibrahim.;💡+Innovating+IT+for+the+Future!;🌌+Quantum+Explorer+%7C+AI+Enthusiast!" />
+</p>
 <h1 align="center">
   <span style="color:#37BCF7;">Hello,</span> 
   <span style="color:#FF5733;">Welcome!</span> 
