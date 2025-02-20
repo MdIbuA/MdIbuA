@@ -18,12 +18,10 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MdIbuA&layout=compact&theme=radical" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MdIbuA&layout=compact&theme=radical" />
 </p>
 
-## 📌 Featured Projects  
-🚀 [Quantum AI Algorithm](https://github.com/MdIbuA/quantum-ai) – A research project on AI-powered quantum algorithms.  
-📱 [Flutter App](https://github.com/MdIbuA/flutter-app) – A mobile app built using Flutter and Figma.
+![Visitor Count](https://komarev.com/ghpvc/?username=MdIbuA&color=blue)
 
 ## 📬 Connect with Me  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/mohamed-ibrahim-al-abdullah-748791262?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)  
