@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&color=37BCF7&center=true&vCenter=true&width=600&height=50&lines=Hello,+Welcome!+This+is+Ibrahim." />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=3500&color=37BCF7,FF5733,8E44AD&center=true&vCenter=true&width=600&height=50&lines=Hello,+Welcome!+This+is+Ibrahim." />
 </p>
 <p align="center">
   <img src="https://raw.githubusercontent.com/MdIbuA/MdIbuA/main/Green%20Simple%20Personal%20LinkedIn%20Banner_20250125_214633_0000.png" alt="GitHub Banner" width="100%" />
