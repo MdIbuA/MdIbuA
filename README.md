@@ -1,4 +1,7 @@
 <p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&size=40&duration=3000&color=87CEEB&center=true&vCenter=true&width=600&height=50&lines=☁️+Hello,+Welcome!+This+is+Ibrahim.;🌥️+Innovating+IT+for+the+Future!" />
+</p>
+<p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=3000&color=F72585,7209B7,3A0CA3,4361EE,4CC9F0&center=true&vCenter=true&width=600&height=50&lines=🚀+Hello,+Welcome!+This+is+Ibrahim.;💡+Innovating+IT+for+the+Future!;🌌+Quantum+Explorer+%7C+AI+Enthusiast!" />
 </p>
 <h1 align="center">
