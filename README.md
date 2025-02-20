@@ -1,8 +1,6 @@
-<h1 align="center">🚀 Mohamed Ibrahim | IT Innovator & Quantum Enthusiast</h1>
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&color=37BCF7&center=true&vCenter=true&width=600&height=50&lines=Quantum+Computing+Explorer;AI+%7C+Cloud+%7C+Edge+Tech+Enthusiast;Innovating+IT+for+the+Future!;Open-Source+Contributor" />
-</p>
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=35&color=37BCF7&center=true&vCenter=true&width=600&height=50&lines=🚀+𝙈𝙤𝙝𝙖𝙢𝙚𝙙+𝙄𝙗𝙧𝙖𝙝𝙞𝙢;⚛️+Quantum+Computing+Explorer;AI+%7C+Cloud+%7C+Edge+Tech+Enthusiast;Innovating+IT+for+the+Future!;Open-Source+Contributor" />
+</h1>
 
 ---
 
