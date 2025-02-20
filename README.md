@@ -1,3 +1,8 @@
+<h1 align="center">
+  <span style="color:#37BCF7;">Hello,</span> 
+  <span style="color:#FF5733;">Welcome!</span> 
+  <span style="color:#8E44AD;">This is Ibrahim.</span>
+</h1>
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=3500&color=37BCF7,FF5733,8E44AD&center=true&vCenter=true&width=600&height=50&lines=Hello,+Welcome!+This+is+Ibrahim." />
 </p>
