@@ -1,4 +1,3 @@
-
 <h1 align="center">🚀 Mohamed Ibrahim | IT Innovator & Quantum Enthusiast</h1>
 
 <p align="center">
@@ -33,12 +32,6 @@
 </p>
 
 ---
-
-
-## 🌌 3D Contribution Graph
-<p align="center">
-  <img src="https://raw.githubusercontent.com/MdIbuA/MdIbuA/output/github-contribution-grid-snake.svg" alt="3D Contribution Graph" />
-</p>
 
 ### **🌌 3D Contribution Graph**
 <p align="center">
