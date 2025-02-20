@@ -1,5 +1,6 @@
 <p align="center">
-  <img src="https://github.com/MdIbuA/MdIbuA/blob/main/Green_Simple_Personal_LinkedIn_Banner_20250125_214633_0000.png" alt="GitHub Banner" width="100%" />
+  <img src="https://raw.githubusercontent.com/MdIbuA/MdIbuA/main/Green%20Simple%20Personal%20LinkedIn%20Banner_20250125_214633_0000.png" alt="GitHub Banner" width="100%" />
+</p>
 </p>
 <h1 align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=35&color=37BCF7&center=true&vCenter=true&width=600&height=50&lines=🚀+𝙈𝙤𝙝𝙖𝙢𝙚𝙙+𝙄𝙗𝙧𝙖𝙝𝙞𝙢;⚛️+Quantum+Computing+Explorer;AI+%7C+Cloud+%7C+Edge+Tech+Enthusiast;Innovating+IT+for+the+Future!;Open-Source+Contributor" />
