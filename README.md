@@ -1,13 +1,27 @@
-👋 Hi, I’m @MdIbu
 
-👀 I’m interested in Emerging Technologies, including Quantum Computing, AI, Edge Computing, and Cloud Computing.
+🚀 Mohamed Ibrahim | IT Innovator & Quantum Enthusiast
 
-🌱 I’m currently learning Quantum Computing and expanding my expertise in cutting-edge technologies.
+🔹 Passionate about Quantum Computing, AI, Edge Computing, and Cloud Technologies.
+🔹 Exploring Quantum Algorithms, AI-driven solutions, and Edge-AI development.
+🔹 Skilled in C, Python, Java, and basic Web Development (HTML & CSS).
+🔹 Actively contributing to open-source projects and research in emerging technologies.
 
-💞 I’m looking to collaborate on Tech projects, especially in AI, Quantum Computing, and Software Development.
+🛠️ Tech Stack & Tools
 
-📫 How to reach me: https://www.linkedin.com/in/mohamed-ibrahim-al-abdullah-748791262/
+Programming: C | Python | Java
 
-😄 Pronouns: He/Him
+Development: Flutter | Figma | HTML & CSS
 
-⚡ Fun fact: I translate speeches from english to tamil, actively donate blood, participate in quiz events, and love building innovative tech solutions!
+Cloud & AI: Quantum Computing | Edge AI | Cloud Technologies
+
+
+📌 Current Focus
+
+🚀 Quantum Computing & AI-driven innovations
+💡 Open-source contributions & real-world tech applications
+📚 Continuous learning & building expertise in advanced computing
+
+📬 Connect with Me
+
+linkedIn: 
+https://www.linkedin.com/in/mohamed-ibrahim-al-abdullah-748791262?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
