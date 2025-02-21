@@ -2,7 +2,7 @@ name: Generate 3D Activity Graph
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Runs daily at midnight
+    - cron: "0 0 * * *"  # Runs daily at midnight UTC
   workflow_dispatch:
 
 jobs:
@@ -10,20 +10,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Generate 3D Graph
-        uses: yoshi389111/github-profile-3d-contrib@main
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          output_dir: profile-3d-contrib
-          background: "black"
-          color: "rainbow"
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}  # Use the Personal Access Token (PAT)
 
       - name: Push to GitHub
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile-3d-contrib/
-          git commit -m "Updated 3D Activity Graph"
+          git add -A
+          git commit -m "Updated 3D Activity Graph" || echo "No changes to commit"
           git push
