@@ -1,29 +1,74 @@
-<!-- 🎯 Header Section with Dynamic Typing & Animated Gradient -->
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Roboto+Slab&size=42&duration=5000&color=37BCF7&center=true&width=800&height=80&lines=𝙈𝙤𝙝𝙖𝙢𝙚𝙙+𝙄𝙗𝙧𝙖𝙝𝙞𝙢;Quantum+Architect+%7C+AI+Researcher;Cloud+Edge+Innovator+%7C+Open+Source+Leader" alt="Animated Header" />
-</div>
-
-<!-- 🌟 Profile Banner -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/MdIbuA/MdIbuA/main/banner.png" alt="Quantum Computing Banner" width="90%" style="border-radius: 15px; box-shadow: 0 0 15px #37BCF7;" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&size=40&duration=3000&color=87CEEB&center=true&vCenter=true&width=600&height=50&lines=☁️+Hello,+Welcome!+This+is+Ibrahim.;🌥️+What+Can+I+do+for+You+Today?" />
+</p>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=3000&color=F72585,7209B7,3A0CA3,4361EE,4CC9F0&center=true&vCenter=true&width=600&height=50&lines=🚀+Hello,+Welcome!+This+is+Ibrahim.;💡+Innovating+IT+for+the+Future!;🌌+Quantum+Explorer+%7C+AI+Enthusiast!" />
+</p>
+<h1 align="center">
+  <span style="color:#37BCF7;">Hello,</span> 
+  <span style="color:#FF5733;">Welcome!</span> 
+  <span style="color:#8E44AD;">This is Ibrahim.</span>
+</h1>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=3500&color=37BCF7,FF5733,8E44AD&center=true&vCenter=true&width=600&height=50&lines=Hello,+Welcome!+This+is+Ibrahim." />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/MdIbuA/MdIbuA/main/Green%20Simple%20Personal%20LinkedIn%20Banner_20250125_214633_0000.png" alt="GitHub Banner" width="100%" />
+</p>
+</p>
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=35&color=37BCF7&center=true&vCenter=true&width=600&height=50&lines=🚀+𝙈𝙤𝙝𝙖𝙢𝙚𝙙+𝙄𝙗𝙧𝙖𝙝𝙞𝙢;⚛️+Quantum+Computing+Explorer;AI+%7C+Cloud+%7C+Edge+Tech+Enthusiast;Innovating+IT+for+the+Future!;Open-Source+Contributor" />
+</h1>
+
+---
+
+### **💎 About Me**
+🔹 Passionate about **Quantum Computing, AI, Edge & Cloud Technologies**.  
+🔹 Skilled in **C, Python, Java, Flutter, and Web Development**.  
+🔹 Actively contributing to **open-source projects and research**.  
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=MdIbuA&color=blue&style=plastic&label=Profile+Visitors" alt="Visitor Count" />
 </p>
 
 ---
 
-<!-- 🚀 About Section -->
-<details open>
-<summary><h2 style="display: inline-block; color: #00E6E6;">🌟 Quantum Technologist</h2></summary>
+### **⚡ Tech Stack & Tools**
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,java,flutter,html,css,git,github,vscode,docker,linux,cloud" />
+</p>
 
-```yaml
-name: Mohamed Ibrahim
-located_in: Saudi Arabia
-current_focus: 
-  - "🔭 Quantum Machine Learning"
-  - "🛰️ Edge AI Architectures"
-  - "☁️ Cloud-Native Quantum Solutions"
-  - "🌐 Open Source Quantum Tooling"
+---
 
-core_skills:
-  languages: [Python (Qiskit), Java, C, Dart]
-  frameworks & tools: [TensorFlow Quantum, Flutter, Node.js, Docker, Kubernetes, GitOps]
-  cloud: [AWS Braket, IBM Quantum, Google Cloud]
+### **🔥 GitHub Stats**
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MdIbuA&theme=radical&hide_border=true" alt="GitHub Streak" />
+  <br />
+  <img src="https://github-readme-stats.vercel.app/api?username=MdIbuA&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
+</p>
+
+---
+
+### **🌌 3D Contribution Graph**
+<p align="center">
+  <img src="https://raw.githubusercontent.com/MdIbuA/MdIbuA/output/github-contribution-grid-snake.svg" alt="3D Contribution Graph" />
+</p>
+
+---
+
+### **🚀 3D Activity Animation**
+<p align="center">
+  <img src="https://github.com/MdIbuA/MdIbuA/blob/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D Activity Graph" />
+</p>
+
+---
+
+### **📬 Connect with Me**
+<p align="center">
+  <a href="https://www.linkedin.com/in/mohamed-ibrahim-al-abdullah-748791262">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" />
+  </a>
+  <a href="mailto:2005mohamedibrahim@gmail.com">
+    <img src="https://img.shields.io/badge/Email-2005mohamedibrahim@gmail.com-red?style=for-the-badge&logo=gmail" />
+  </a>
+</p>
