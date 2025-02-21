@@ -33,3 +33,81 @@ current_projects:
   - "🧠 Quantum Neural Networks for Drug Discovery"
   - "⚡ Edge-Quantum Computing Hybrid Systems"
   - "🔓 Open Source Quantum SDK Development"
+```
+</details>
+
+---
+
+<!-- 🛠️ Tech Stack Section with Interactive Icons -->
+<h2 align="center">⚡ Quantum Tech Stack</h2>
+
+<div align="center">
+  <!-- Quantum Computing -->
+  <img src="https://img.shields.io/badge/Qiskit-6929C4?style=for-the-badge&logo=qiskit&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cirq-4285F4?style=for-the-badge&logo=google&logoColor=white" />
+  <img src="https://img.shields.io/badge/PennyLane-8A2BE2?style=for-the-badge" />
+  
+  <!-- AI/ML -->
+  <img src="https://img.shields.io/badge/TensorFlow_Quantum-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch_Quantum-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+  
+  <!-- Cloud -->
+  <img src="https://img.shields.io/badge/AWS_Braket-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/IBM_Quantum-052FAD?style=for-the-badge&logo=ibm&logoColor=white" />
+</div>
+
+---
+
+<!-- 📊 Enhanced Stats Section with 3D Effects -->
+<h2 align="center">📈 Quantum Contributions</h2>
+
+<div align="center">
+  
+  ![Quantum Coding Activity](https://raw.githubusercontent.com/MdIbuA/MdIbuA/main/profile-3d-contrib/profile-night-rainbow.svg)
+  
+  <!-- Dynamic Stats Cards -->
+  <a href="https://github.com/MdIbuA">
+    <img src="https://github-readme-stats-quantum.vercel.app/api?username=MdIbuA&show_icons=true&theme=dark&count_private=true&include_all_commits=true&custom_title=Quantum+Development+Metrics" width="49%" />
+  </a>
+  <a href="https://github.com/MdIbuA">
+    <img src="https://github-readme-streak-stats-quantum.herokuapp.com/?user=MdIbuA&theme=dark&background=0D1117" width="49%" />
+  </a>
+  
+  <!-- Language Distribution with Quantum Focus -->
+  <img src="https://github-readme-stats-quantum.vercel.app/api/top-langs/?username=MdIbuA&layout=compact&theme=dark&hide=javascript,html,css&custom_title=Quantum+Code+Distribution" />
+</div>
+
+---
+
+<!-- 🎯 Projects Section with Dynamic Cards -->
+<h2 align="center">🚀 Quantum Initiatives</h2>
+
+<div align="center">
+  
+  [![Quantum SDK](https://github-readme-stats-quantum.vercel.app/api/pin/?username=MdIbuA&repo=QuantumSDK&theme=dark)](https://github.com/MdIbuA/QuantumSDK)
+  [![EdgeQ](https://github-readme-stats-quantum.vercel.app/api/pin/?username=MdIbuA&repo=EdgeQ&theme=dark)](https://github.com/MdIbuA/EdgeQ)
+  
+</div>
+
+---
+
+<!-- 📬 Professional Contact Section -->
+<h2 align="center">🌌 Connect Through the Quantum Realm</h2>
+
+<p align="center">
+  <a href="https://linkedin.com/in/yourprofile">
+    <img src="https://img.shields.io/badge/Quantum_Network-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:your@email.com">
+    <img src="https://img.shields.io/badge/Quantum_Mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://medium.com/@yourprofile">
+    <img src="https://img.shields.io/badge/Quantum_Blog-12100E?style=for-the-badge&logo=medium&logoColor=white" />
+  </a>
+</p>
+
+<!-- 🌀 Animated Quantum Circuit Footer -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/MdIbuA/MdIbuA/main/quantum-circuit.svg" width="100%" />
+</div>
+```
