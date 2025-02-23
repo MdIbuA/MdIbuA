@@ -9,6 +9,9 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
       - name: Generate Snake Contribution Graph
         uses: Platane/snk@master
         with:
@@ -16,7 +19,7 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
 
-      - name: Push to GitHub
+      - name: Upload Snake Contribution Graph
         uses: actions/upload-artifact@v2
         with:
           name: contribution-snake
