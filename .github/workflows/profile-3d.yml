@@ -20,6 +20,9 @@ jobs:
 
       - name: Generate 3D Graph
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        with:
+          renderer: both
+          theme: auto
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
           USERNAME: "MdIbuA"  # Explicitly set your GitHub username
