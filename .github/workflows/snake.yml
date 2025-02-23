@@ -8,16 +8,13 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
-
-    - name: Generate animation
-      run: python generate_snake.py
-
-    - name: Upload artifact
-      uses: actions/upload-artifact@v3
-      with:
-        name: snake-animation
-        path: path/to/animation/file
+      - uses: actions/checkout@v3
+      
+      # Update the action version here
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: snake-animation
+          path: path/to/your/artifact
