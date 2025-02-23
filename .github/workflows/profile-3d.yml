@@ -1,24 +1,37 @@
-name: GitHub-Profile-3D-Contrib
+name: Generate 3D Activity Graph
 
 on:
   schedule:
-    - cron: "0 18 * * *"  # Runs every day at 18:00 UTC
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
-    name: generate-github-profile-3d-contrib
+    permissions:
+      contents: write
+      pull-requests: write
+
     steps:
-      - uses: actions/checkout@v3
-      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GH_PAT }}
+
+      - name: Generate 3D Graph
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT01 }}  # Using your correct PAT
-          USERNAME: ${{ github.repository_owner }}
-      - name: Commit & Push
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+
+      - name: Configure Git
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
+          git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/MdIbuA/MdIbuA.git
+
+      - name: Commit and Push
+        run: |
+          git add -A --force
           git commit -m "Updated 3D Activity Graph" || echo "No changes to commit"
-          git push https://x-access-token:${{ secrets.GH_PAT01 }}@github.com/${{ github.repository }}.git HEAD:main
+          git push origin main
