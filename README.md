@@ -53,6 +53,10 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/MdIbuA/MdIbuA/output/github-contribution-grid-snake.svg" alt="3D Contribution Graph" />
 </p>
+### 🐍 Snake Animation
+<p align="center">
+  <img src="https://github.com/MdIbuA/MdIbuA/blob/output/snake.svg" alt="Snake Animation" />
+</p>
 
 ---
 
