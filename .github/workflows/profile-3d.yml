@@ -1,12 +1,12 @@
-name: Generate 3D Activity Graph
+name: 3D Contribution Graph Updater
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *"  # Daily at midnight UTC
   workflow_dispatch:
 
 jobs:
-  generate:
+  generate-3d:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -19,8 +19,11 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GH_PAT }}
 
-      - name: Generate 3D Graph
+      - name: Generate 3D Contribution Graph
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        with:
+          renderer: "both"  # Generate both standard and animated versions
+          theme: "auto"     # Automatic light/dark theme detection
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
 
@@ -28,10 +31,11 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/MdIbuA/MdIbuA.git
+          git config --global http.https://github.com/.extraheader "AUTHORIZATION: basic $(echo -n x-access-token:${{ secrets.GH_PAT }} | base64)"
 
-      - name: Commit and Push
+      - name: Commit & Push Changes
         run: |
-          git add -A --force
-          git commit -m "Updated 3D Activity Graph" || echo "No changes to commit"
+          git add ./profile-3d-contrib/*
+          git commit -m "🔄 Automated 3D Contribution Graph Update" || echo "No changes to commit"
+          git pull --rebase origin main  # Prevent divergent histories
           git push origin main
