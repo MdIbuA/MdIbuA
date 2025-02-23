@@ -2,25 +2,22 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 */12 * * *"  # Runs every 12 hours
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
-  generate:
+  build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+    - name: Checkout repository
+      uses: actions/checkout@v3
 
-      - name: Generate Snake Contribution Graph
-        uses: Platane/snk@master
-        with:
-          github_user_name: "MdIbuA"
-          outputs: |
-            dist/github-contribution-grid-snake.svg
+    - name: Generate animation
+      run: python generate_snake.py
 
-      - name: Upload Snake Contribution Graph
-        uses: actions/upload-artifact@v2
-        with:
-          name: contribution-snake
-          path: dist/github-contribution-grid-snake.svg
+    - name: Upload artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: snake-animation
+        path: path/to/animation/file
