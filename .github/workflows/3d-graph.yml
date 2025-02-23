@@ -8,19 +8,32 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Crucial for pushing changes
+      
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4  # Updated to v4
+        with:
+          fetch-depth: 0  # Required for commit history
+          token: ${{ secrets.GH_PAT }}  # Use PAT for checkout
 
       - name: Generate 3D Graph
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}  # Use the Personal Access Token (PAT)
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
 
       - name: Push to GitHub
         run: |
+          # Configure Git
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
+          
+          # Force-add all changes (including case-sensitive filenames)
+          git add -A --force
+          
+          # Commit changes
           git commit -m "Updated 3D Activity Graph" || echo "No changes to commit"
-          git push
+          
+          # Push using PAT authentication
+          git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/MdIbuA/MdIbuA.git main
