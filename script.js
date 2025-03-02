@@ -1,7 +1,7 @@
+/* script.js */
 const canvas = document.getElementById('quantumCanvas');
 const renderer = new THREE.WebGLRenderer({ canvas });
 renderer.setSize(window.innerWidth, window.innerHeight);
-
 document.body.appendChild(renderer.domElement);
 
 const scene = new THREE.Scene();
@@ -21,3 +21,9 @@ function animate() {
 }
 
 animate();
+
+window.addEventListener('resize', () => {
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    camera.aspect = window.innerWidth / window.innerHeight;
+    camera.updateProjectionMatrix();
+});
