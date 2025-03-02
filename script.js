@@ -1,4 +1,5 @@
-/* script.js */
+// script.js
+
 const canvas = document.getElementById('quantumCanvas');
 const renderer = new THREE.WebGLRenderer({ canvas });
 renderer.setSize(window.innerWidth, window.innerHeight);
@@ -22,6 +23,24 @@ function animate() {
 
 animate();
 
+// Floating Circles Animation
+const circles = document.querySelectorAll(".circle");
+
+circles.forEach(circle => {
+    let x = Math.random() * window.innerWidth;
+    let y = Math.random() * window.innerHeight;
+    let size = Math.random() * 50 + 20;
+
+    circle.style.width = `${size}px`;
+    circle.style.height = `${size}px`;
+    circle.style.left = `${x}px`;
+    circle.style.top = `${y}px`;
+
+    let duration = Math.random() * 5 + 3;
+    circle.style.animationDuration = `${duration}s`;
+});
+
+// Handle window resize
 window.addEventListener('resize', () => {
     renderer.setSize(window.innerWidth, window.innerHeight);
     camera.aspect = window.innerWidth / window.innerHeight;
