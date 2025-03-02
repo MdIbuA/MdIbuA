@@ -1,3 +1,4 @@
+/* styles.css */
 body {
     margin: 0;
     overflow: hidden;
@@ -15,6 +16,7 @@ body {
 .glow {
     font-size: 3rem;
     text-shadow: 0 0 10px cyan, 0 0 20px blue;
+    animation: glowEffect 2s infinite alternate;
 }
 
 .subtitle {
@@ -62,4 +64,9 @@ body {
     0% { transform: translateY(0); opacity: 1; }
     50% { transform: translateY(-20px); opacity: 0.5; }
     100% { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes glowEffect {
+    0% { text-shadow: 0 0 10px cyan, 0 0 20px blue; }
+    100% { text-shadow: 0 0 20px cyan, 0 0 30px blue; }
 }
