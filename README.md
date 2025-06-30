@@ -57,5 +57,3 @@
     <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail" />
   </a>
 </p>
-/main/Green%20Simple%20Personal%20LinkedIn%20Banner_20250125_214633_0000.png" alt="GitHub Banner" width="100%" />
-</p>
