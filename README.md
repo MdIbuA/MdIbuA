@@ -44,6 +44,10 @@
   <img src="https://skillicons.dev/icons?i=python,java,flutter,html,css,js,git,github,vscode,docker,linux,cloud,qiskit,tensorflow,react,figma" />
 </p>
 
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,java,c,flutter,html,css,js,qiskit,tensorflow,react,nodejs" />
+</p>
+
 ---
 
 ## 🔥 GitHub Stats
