@@ -1,33 +1,53 @@
-<p alig<p align="center">
-  <img src="https://raw.githubusercontent.com/MdIbuA/MdIbuA<p align="center">
-  <img src="https://raw.githubusercontent.com/MdIbuA/MdIbuA/main/Green%20Simple%20Personal%20LinkedIn%20Banner_20250125_214633_0000.png" alt="GitHub Banner" width="100%" />
+<p align="center">
+  <img src="https://raw.githubusercontent.com/MdIbuA/MdIbuA/main/Green%20Simple%20Personal%20LinkedIn%20Banner_20250125_214633_0000.png" alt="GitHub Futuristic Banner" width="100%" />
 </p>
 
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=35&color=37BCF7&center=true&vCenter=true&width=600&height=50&lines=🚀+𝙈𝙤𝙝𝙖𝙢𝙚𝙙+𝙄𝙗𝙧𝙖𝙝𝙞𝙢;⚛️+Quantum+Computing+Explorer;AI+%7C+Cloud+%7C+Edge+Tech+Enthusiast;Innovating+IT+for+the+Future!;Open-Source+Contributor" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=35&duration=3000&color=37BCF7&center=true&vCenter=true&width=700&height=60&lines=🚀+Mohamed+Ibrahim;⚛️+Quantum+Computing+Explorer;AI+%7C+Cloud+%7C+Edge+Tech+Enthusiast;Innovating+IT+for+the+Future!;Open-Source+Contributor" alt="Typing SVG Header" />
 </h1>
 
----
-
-### **💎 About Me**
-🔹 Passionate about **Quantum Computing, AI, Edge & Cloud Technologies**.  
-🔹 Skilled in **C, Python, Java, Flutter, and Web Development**.  
-🔹 Actively contributing to **open-source projects and research**.  
-
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=MdIbuA&color=blue&style=plastic&label=Profile+Visitors" alt="Visitor Count" />
+  <img src="https://komarev.com/ghpvc/?username=MdIbuA&color=1f8ef1&style=plastic&label=Profile+Visitors" alt="Visitor Count" />
 </p>
 
 ---
 
-### **⚡ Tech Stack & Tools**
+<div align="center">
+
+<img src="https://github.com/MdIbuA/MdIbuA/blob/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D Activity Graph" width="80%" />
+
+</div>
+
+---
+
+## 💎 About Me
+
+<div align="center">
+
+<p>
+  <img src="https://img.shields.io/badge/Quantum%20Computing-⚛️-1f8ef1?style=for-the-badge&logo=quantconnect" />
+  <img src="https://img.shields.io/badge/AI%20%7C%20Cloud%20%7C%20Edge%20Tech-🚀-19e068?style=for-the-badge&logo=cloudflare" />
+</p>
+
+</div>
+
+- 🚀 Passionate about **Quantum Computing, AI, Edge & Cloud Technologies**
+- 💡 Skilled in **C, Python, Java, Flutter, and Web Development**
+- 🌐 Actively contributing to **Open-Source Projects & Research**
+- 🛠️ Building futuristic IT—**Innovate. Inspire. Impact.**
+
+---
+
+## ⚡ Tech Stack & Tools
+
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,flutter,html,css,git,github,vscode,docker,linux,cloud,qiskit,tensorflow" />
+  <img src="https://skillicons.dev/icons?i=python,java,flutter,html,css,js,git,github,vscode,docker,linux,cloud,qiskit,tensorflow,react,figma" />
 </p>
 
 ---
 
-### **🔥 GitHub Stats**
+## 🔥 GitHub Stats
+
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=MdIbuA&theme=radical&hide_border=true" alt="GitHub Streak" />
   <br />
@@ -38,22 +58,21 @@
 
 ---
 
+## 🚀 3D Contribution Animation
 
----
-
-### **🚀 3D Activity Animation**
 <p align="center">
-  <img src="https://github.com/MdIbuA/MdIbuA/blob/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D Activity Graph" />
+  <img src="https://github.com/MdIbuA/MdIbuA/blob/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D Activity Graph" width="70%" />
 </p>
 
 ---
 
-### **📬 Connect with Me**
+## 📬 Connect with Me
+
 <p align="center">
-  <a href="https://www.linkedin.com/in/mohamed-ibrahim-al-abdullah-748791262">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" />
+  <a href="https://www.linkedin.com/in/mohamed-ibrahim-al-abdullah-748791262" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn Badge" />
   </a>
   <a href="mailto:2005mohamedibrahim@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail" />
+    <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail" alt="Gmail Badge" />
   </a>
 </p>
