@@ -39,9 +39,7 @@ I'm currently applying to become a **GitHub Campus Expert** and helping my peers
   <br />
   <img src="https://skillicons.dev/icons?i=linux,docker,git,github,vscode,qiskit,tensorflow,cloud" />
 </p>
-<p align="center">
-  <img src="https://your-banner-link" alt="Mohamed Ibrahim Futuristic Banner" width="100%" />
-</p>
+
 ---
 
 ## ✨ Highlights & Contributions
@@ -82,7 +80,7 @@ I'm currently applying to become a **GitHub Campus Expert** and helping my peers
 ## 🤝 Let’s Connect
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/mohamed-ibrahim-al-abdullah-748791262" target="_blank">
+  <a href="https://www.linkedin.com/in/mohamedibrahimbinabdullah " target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
   </a>
   <a href="mailto:2005mohamedibrahim@gmail.com">
