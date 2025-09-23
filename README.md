@@ -59,8 +59,6 @@ I'm currently applying to become a **GitHub Campus Expert** and helping my peers
 ## 📊 GitHub Metrics
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MdIbuA&theme=radical&hide_border=true" alt="GitHub Streak" />
-  <br />
   <img src="https://github-readme-stats.vercel.app/api?username=MdIbuA&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
   <br />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MdIbuA&layout=compact&theme=radical&hide_border=true" />
