@@ -1,9 +1,9 @@
 name: Generate 3D Activity Graph
 
-on:
-  schedule:
-    - cron: "0 0 * * *"  # Runs daily at midnight UTC
-  workflow_dispatch:
+#on:
+  #schedule:
+   # - cron: "0 0 * * *"  # Runs daily at midnight UTC
+  #workflow_dispatch:
 
 jobs:
   generate:
