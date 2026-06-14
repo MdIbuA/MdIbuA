@@ -1,11 +1,15 @@
 <!-- ⚡ Futuristic GitHub README | Mohamed Ibrahim -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/MdIbuA/MdIbuA/main/Green%20Simple%20Personal%20LinkedIn%20Banner_20250125_214633_0000.png" alt="Futuristic GitHub Banner" width="100%" />
+  <img src="https://raw.githubusercontent.com/MdIbuA/MdIbuA/main/Green%20Simple%20Personal%20LinkedIn%20Banner_20250125_214633_0000.png" alt="Banner" width="100%" />
 </p>
 
 <h1 align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=30&duration=3000&pause=1000&color=37BCF7&center=true&vCenter=true&width=850&height=60&lines=%F0%9F%9A%80+Mohamed+Ibrahim;%E2%9A%9B%EF%B8%8F+Quantum+Computing+Enthusiast;%F0%9F%A7%A0+AI+%26+ML+Explorer;%F0%9F%8C%90+Edge+%26+Cloud+Builder;%F0%9F%8E%93+GitHub+Campus+Expert+Aspirant"/>
 </h1>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=3&section=header" width="100%"/>
+</p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=MdIbuA&color=1f8ef1&style=for-the-badge&label=PROFILE+VIEWS" alt="Visitor Count" />
@@ -19,13 +23,15 @@
 
 <br/>
 
+<h2 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Coding+beyond+the+classical...;Toward+the+quantum%2C+the+cloud%2C+and+the+edge."/>
+</h2>
+
 ## 🌌 About Me
 
 <table>
 <tr>
 <td width="60%">
-
-> *"Coding beyond the classical — toward the quantum, the cloud, and the edge."*
 
 I'm a **3rd-year IT student** engineering the future at the intersection of:
 
@@ -39,12 +45,14 @@ Currently working toward becoming a **GitHub Campus Expert**, helping peers expl
 
 </td>
 <td width="40%" align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=MdIbuA&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub Stats"/>
+<img src="https://github-readme-stats.vercel.app/api?username=MdIbuA&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&icon_color=37BCF7&title_color=37BCF7" alt="GitHub Stats"/>
 </td>
 </tr>
 </table>
 
----
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12&height=2&width=100%"/>
+</p>
 
 ## 🛠️ Tech Arsenal
 
@@ -54,7 +62,9 @@ Currently working toward becoming a **GitHub Campus Expert**, helping peers expl
   <img src="https://skillicons.dev/icons?i=linux,docker,git,github,vscode,tensorflow,gcp&theme=dark" />
 </p>
 
----
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12&height=2&width=100%"/>
+</p>
 
 ## ✨ Highlights & Contributions
 
@@ -84,30 +94,31 @@ Currently working toward becoming a **GitHub Campus Expert**, helping peers expl
 </tr>
 </table>
 
----
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12&height=2&width=100%"/>
+</p>
 
 ## 🧪 Currently Exploring
 
-```text
-⚛️  Quantum NLP (QNLP) using Pennylane & Qiskit
-📶  Edge-to-Cloud Streaming with Lightweight AI Models
-🧬  Neurosymbolic AI Architectures
-💼  Full-Stack Project Management Systems (MERN)
-```
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2500&pause=800&color=A8FF60&center=true&vCenter=true&width=700&height=120&multiline=true&lines=%E2%9A%9B%EF%B8%8F+Quantum+NLP+(QNLP)+using+Pennylane+%26+Qiskit;%F0%9F%93%B6+Edge-to-Cloud+Streaming+with+Lightweight+AI;%F0%9F%A7%AC+Neurosymbolic+AI+Architectures;%F0%9F%92%BC+Full-Stack+MERN+Project+Management+Systems" align="center"/>
 
----
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12&height=2&width=100%"/>
+</p>
 
 ## 📊 GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MdIbuA&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MdIbuA&theme=tokyonight&hide_border=true&background=0D1117&ring=37BCF7&fire=A8FF60" alt="GitHub Streak"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MdIbuA&theme=tokyo-night&hide_border=true&bg_color=0D1117" alt="Activity Graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MdIbuA&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=37BCF7&line=A8FF60&point=ffffff" alt="Activity Graph"/>
 </p>
 
----
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12&height=2&width=100%"/>
+</p>
 
 ## 🤝 Let's Connect
 
@@ -120,13 +131,18 @@ Currently working toward becoming a **GitHub Campus Expert**, helping peers expl
   </a>
 </p>
 
----
-
 <p align="center">
-  <i>🧠 "Dream it. Code it. Contribute it."</i><br/>
-  Thanks for stopping by ✨ — if you're into quantum, AI, or just curious, let's collaborate!
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=18&duration=4000&pause=1000&color=A8FF60&center=true&vCenter=true&width=600&lines=Dream+it.+Code+it.+Contribute+it.;Thanks+for+stopping+by+%E2%9C%A8;Let's+collaborate+on+something+quantum%21"/>
 </p>
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=MdIbuA&theme=darkhub&no-frame=true&row=1&column=6" alt="Trophies"/>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=100&section=footer" width="100%"/>
+</p>
+
+<p align="center">
+  ⭐️ From <a href="https://github.com/MdIbuA">MdIbuA</a> — Powered by curiosity & ☕
 </p>
