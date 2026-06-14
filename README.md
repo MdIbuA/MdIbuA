@@ -134,12 +134,8 @@ Currently working toward becoming a **GitHub Campus Expert**, helping peers expl
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=18&duration=4000&pause=1000&color=A8FF60&center=true&vCenter=true&width=600&lines=Dream+it.+Code+it.+Contribute+it.;Thanks+for+stopping+by+%E2%9C%A8;Let's+collaborate+on+something+quantum%21"/>
 </p>
-
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=MdIbuA&theme=darkhub&no-frame=true&row=1&column=6" alt="Trophies"/>
-</p>
-
-<p align="center">
+<img src="https://raw.githubusercontent.com/MdIbuA/MdIbuA/output/github-contribution-grid-snake.svg" alt="Snake animation"/><p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=100&section=footer" width="100%"/>
 </p>
 
