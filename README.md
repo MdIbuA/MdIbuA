@@ -33,7 +33,7 @@
 <tr>
 <td width="60%">
 
-I'm a **3rd-year IT student** engineering the future at the intersection of:
+I'm a **Final year IT student** engineering the future at the intersection of:
 
 - ⚛️ **Quantum Computing**
 - 🧠 **Artificial Intelligence**
