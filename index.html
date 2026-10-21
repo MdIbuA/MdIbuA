@@ -1,28 +1,685 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" class="no-js">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quantum Universe | Mohamed Ibrahim</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mohamed Ibrahim A. (Ibu) — Software &amp; AI Engineer</title>
+  <meta name="description" content="Mohamed Ibrahim A. (Ibu) is an IT engineering student in Coimbatore, India, building AI systems, full-stack apps and cloud infrastructure. Projects, write-ups and contact.">
+  <link rel="canonical" href="https://mdibua.github.io/MdIbuA/">
+  <meta name="theme-color" content="#0b0c0b">
+  <meta name="color-scheme" content="dark">
+  <meta name="author" content="Mohamed Ibrahim A.">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mdibua.github.io/MdIbuA/">
+  <meta property="og:title" content="Mohamed Ibrahim A. (Ibu) — Software &amp; AI Engineer">
+  <meta property="og:description" content="AI systems, full-stack apps and cloud infrastructure — with the trade-offs and limitations written down.">
+  <meta property="og:image" content="https://mdibua.github.io/MdIbuA/assets/img/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Mohamed Ibrahim A. — I build intelligent systems.">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+
+  <link rel="preload" href="assets/fonts/bricolage-grotesque-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/geist-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script>
+    // Enable JS styles now; fall back to the no-JS layout if main.js never boots.
+    document.documentElement.classList.replace('no-js', 'js');
+    setTimeout(function () { if (!window.__ibuReady) document.documentElement.classList.replace('js', 'no-js'); }, 4000);
+  </script>
+  <script type="module" src="assets/js/main.js"></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Mohamed Ibrahim A.",
+    "alternateName": "Ibu",
+    "url": "https://mdibua.github.io/MdIbuA/",
+    "image": "https://mdibua.github.io/MdIbuA/assets/img/ibu-portrait-800.webp",
+    "jobTitle": "Software Developer",
+    "email": "mailto:2005mohamedibrahim@gmail.com",
+    "address": { "@type": "PostalAddress", "addressLocality": "Coimbatore", "addressRegion": "Tamil Nadu", "addressCountry": "IN" },
+    "knowsAbout": ["Software engineering", "Generative AI", "Retrieval-augmented generation", "AI agents", "Machine learning", "Full-stack web development", "Cloud computing", "Data engineering"],
+    "sameAs": ["https://github.com/MdIbuA", "https://www.linkedin.com/in/mohamedibrahimbinabdullah"]
+  }
+  </script>
 </head>
 <body>
-    <canvas id="quantumCanvas"></canvas>
-    <div class="overlay">
-        <h1 class="glow">🚀 Mohamed Ibrahim</h1>
-        <p class="subtitle">Quantum Explorer | AI Enthusiast | Cloud & Edge Innovator</p>
-        <div class="links">
-            <a href="https://github.com/MdIbuA" target="_blank" class="btn">GitHub</a>
-            <a href="https://www.linkedin.com/in/mohamed-ibrahim-al-abdullah-748791262" target="_blank" class="btn">LinkedIn</a>
-            <a href="mailto:2005mohamedibrahim@gmail.com" class="btn">Email</a>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" data-header>
+    <div class="site-header__inner">
+      <a class="wordmark" href="#top">
+        <span class="wordmark__mark">ibu</span><span class="wordmark__slash" aria-hidden="true">/</span><span class="wordmark__sub">engineering playground</span><span class="visually-hidden">, back to top</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <ul class="site-nav__list" id="site-nav-list">
+          <li><a href="#work">Work</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#stack">Stack</a></li>
+          <li><a href="#path">Path</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="site-header__tools">
+        <button class="cmd-trigger" type="button" data-cmd-open aria-haspopup="dialog" aria-keyshortcuts="Control+K Meta+K">
+          <span class="cmd-trigger__label">Jump to</span>
+          <kbd class="cmd-trigger__kbd" data-cmd-kbd>Ctrl K</kbd>
+        </button>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav-list" data-menu-toggle>
+          <span class="visually-hidden">Menu</span>
+          <span class="menu-toggle__bars" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero__grid">
+        <div class="hero__copy">
+          <p class="eyebrow">
+            <span class="eyebrow__dot" aria-hidden="true"></span>
+            <span>Mohamed Ibrahim A. <span class="eyebrow__aka">“Ibu”</span></span>
+            <span class="eyebrow__sep">Software &amp; AI engineer</span>
+            <span class="eyebrow__sep">Coimbatore, IN</span>
+          </p>
+          <h1 class="hero__title" id="hero-title">
+            <span class="hero__line">I build</span>
+            <span class="hero__line hero__line--accent">intelligent</span>
+            <span class="hero__line">systems<span class="hero__stop" aria-hidden="true">.</span></span>
+          </h1>
+          <p class="hero__lede">
+            Models, APIs, data pipelines and the cloud they run on — wired together into products people can actually use.
+            I measure what I build and write down where it falls short.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#work">Explore the work <span aria-hidden="true">↓</span></a>
+            <a class="btn btn--ghost" href="mailto:2005mohamedibrahim@gmail.com">Email me</a>
+          </div>
+          <ul class="hero__facts" aria-label="At a glance">
+            <li><span class="fact__k">Studying</span><span>B.Tech Information Technology, graduating June 2027</span></li>
+            <li><span class="fact__k">Community</span><span>AWS Student Builder Campus Leader · Microsoft Learn Student Ambassador</span></li>
+            <li><span class="fact__k">Profiles</span>
+              <span><a href="https://github.com/MdIbuA" rel="me noopener" target="_blank">GitHub<span class="visually-hidden"> (opens in a new tab)</span></a> ·
+              <a href="https://www.linkedin.com/in/mohamedibrahimbinabdullah" rel="me noopener" target="_blank">LinkedIn<span class="visually-hidden"> (opens in a new tab)</span></a></span>
+            </li>
+          </ul>
         </div>
+
+        <!-- Interactive system map. Edges are static SVG; nodes are real buttons.
+             Without JavaScript the legend below the map explains every node. -->
+        <figure class="sysmap" id="system" aria-labelledby="sysmap-caption" data-sysmap>
+          <figcaption class="sysmap__head" id="sysmap-caption">
+            <span class="label">Fig. 01 — How my systems fit together</span>
+            <span class="sysmap__hint js-only">Select a component, or trace a real project through it.</span>
+          </figcaption>
+
+          <div class="sysmap__flows js-only" role="group" aria-label="Trace a project through the map">
+            <span class="sysmap__flows-label" aria-hidden="true">Trace</span>
+            <button type="button" class="chip" data-flow="documind" aria-pressed="false">DocuMind AI</button>
+            <button type="button" class="chip" data-flow="cryptopulse" aria-pressed="false">CryptoPulse</button>
+            <button type="button" class="chip" data-flow="opsagent" aria-pressed="false">Ops Agent</button>
+          </div>
+
+          <div class="sysmap__canvas">
+            <svg class="sysmap__edges" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+              <rect class="sysmap__cloud" x="3" y="3" width="94" height="94" rx="1.5"></rect>
+              <line data-edge="ui-api" x1="50" y1="7" x2="50" y2="26"></line>
+              <line data-edge="api-agent" x1="50" y1="26" x2="22" y2="46"></line>
+              <line data-edge="api-model" x1="50" y1="26" x2="78" y2="46"></line>
+              <line data-edge="agent-model" x1="22" y1="46" x2="78" y2="46"></line>
+              <line data-edge="agent-retrieval" x1="22" y1="46" x2="22" y2="66"></line>
+              <line data-edge="retrieval-data" x1="22" y1="66" x2="50" y2="82"></line>
+              <line data-edge="agent-data" x1="22" y1="46" x2="50" y2="82"></line>
+              <line data-edge="api-data" x1="50" y1="26" x2="50" y2="82"></line>
+              <line data-edge="pipeline-data" x1="78" y1="66" x2="50" y2="82"></line>
+              <line data-edge="pipeline-model" x1="78" y1="66" x2="78" y2="46"></line>
+              <line data-edge="retrieval-model" x1="22" y1="66" x2="78" y2="46"></line>
+            </svg>
+            <div class="sysmap__nodes" role="group" aria-label="System components">
+              <button type="button" class="node" data-node="ui"        style="--x:50;--y:7" aria-pressed="false"><span class="node__n">01</span>Interface</button>
+              <button type="button" class="node" data-node="api"       style="--x:50;--y:26" aria-pressed="false"><span class="node__n">02</span>API layer</button>
+              <button type="button" class="node" data-node="agent"     style="--x:22;--y:46" aria-pressed="false"><span class="node__n">03</span>Agent loop</button>
+              <button type="button" class="node" data-node="model"     style="--x:78;--y:46" aria-pressed="false"><span class="node__n">04</span>Model</button>
+              <button type="button" class="node" data-node="retrieval" style="--x:22;--y:66" aria-pressed="false"><span class="node__n">05</span>Retrieval</button>
+              <button type="button" class="node" data-node="pipeline"  style="--x:78;--y:66" aria-pressed="false"><span class="node__n">06</span>Pipeline</button>
+              <button type="button" class="node" data-node="data"      style="--x:50;--y:82" aria-pressed="false"><span class="node__n">07</span>Data store</button>
+              <button type="button" class="node node--cloud" data-node="cloud" style="--x:3;--y:97" aria-pressed="false"><span class="node__n">08</span>Cloud &amp; delivery</button>
+            </div>
+          </div>
+
+          <div class="sysmap__panel js-only" aria-live="polite" data-sysmap-panel>
+            <p class="sysmap__panel-title">Nothing selected</p>
+            <p class="sysmap__panel-body">Each box is a layer I have built in a real project. Pick one to see its job and where it shows up in my work.</p>
+          </div>
+
+          <dl class="sysmap__legend no-js-only">
+            <div><dt>Interface</dt><dd>React dashboards, a Telegram bot, static web apps.</dd></div>
+            <div><dt>API layer</dt><dd>FastAPI, Express and AWS Lambda handlers.</dd></div>
+            <div><dt>Agent loop</dt><dd>Tool-calling orchestration around an LLM.</dd></div>
+            <div><dt>Model</dt><dd>Hosted LLMs (Bedrock, Claude, Gemini) and trained models (Keras, scikit-learn).</dd></div>
+            <div><dt>Retrieval</dt><dd>Getting the right context into the prompt.</dd></div>
+            <div><dt>Pipeline</dt><dd>Ingestion and feature engineering.</dd></div>
+            <div><dt>Data store</dt><dd>PostgreSQL, MongoDB, Oracle, Firestore, S3.</dd></div>
+            <div><dt>Cloud &amp; delivery</dt><dd>AWS, Google Cloud, Docker and GitHub Actions.</dd></div>
+          </dl>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ WORK ============ -->
+    <section class="section work" id="work" aria-labelledby="work-title">
+      <header class="section__head">
+        <p class="section__num" aria-hidden="true">01</p>
+        <h2 class="section__title" id="work-title">Selected work</h2>
+        <p class="section__intro">
+          Every case study separates what was built from what was measured and what is still missing.
+          Where code is not public, I say so.
+        </p>
+      </header>
+
+      <div class="filters" role="group" aria-label="Filter projects by area">
+        <button type="button" class="chip" data-filter="all" aria-pressed="true">All</button>
+        <button type="button" class="chip" data-filter="ai" aria-pressed="false">AI &amp; ML</button>
+        <button type="button" class="chip" data-filter="fullstack" aria-pressed="false">Full-stack</button>
+        <button type="button" class="chip" data-filter="cloud" aria-pressed="false">Cloud</button>
+        <button type="button" class="chip" data-filter="data" aria-pressed="false">Data</button>
+        <p class="filters__status visually-hidden" aria-live="polite" data-filter-status></p>
+      </div>
+
+      <div class="work__featured">
+
+        <!-- CryptoPulse -->
+        <article class="case case--wide reveal" id="project-cryptopulse" data-tags="ai data fullstack" aria-labelledby="cp-title">
+          <div class="case__meta">
+            <p class="case__index">P—01</p>
+            <p class="case__kind">ML platform · Infosys Springboard internship</p>
+          </div>
+          <div class="case__main">
+            <h3 class="case__title" id="cp-title">CryptoPulse</h3>
+            <p class="case__hook">A crypto forecasting platform that shows how accurate its forecasts are, not just the forecast line.</p>
+            <ul class="tags" aria-label="Technologies">
+              <li>Python</li><li>TensorFlow / Keras LSTM</li><li>scikit-learn</li><li>FastAPI</li><li>MongoDB</li><li>React + Vite</li><li>Binance API</li>
+            </ul>
+            <div class="case__links">
+              <a class="link-arrow" href="https://github.com/MdIbuA/CryptoPulse" target="_blank" rel="noopener">Source on GitHub<span class="visually-hidden"> (opens in a new tab)</span></a>
+            </div>
+          </div>
+          <figure class="case__art art-metrics" aria-labelledby="cp-fig">
+            <figcaption id="cp-fig" class="label">BTC model · chronological 80/20 split · test set</figcaption>
+            <div class="metric">
+              <div class="metric__row"><span>R² on close price</span><strong>0.940</strong></div>
+              <div class="bar" role="img" aria-label="R squared 0.94 out of 1"><span style="--v:94%"></span></div>
+            </div>
+            <div class="metric">
+              <div class="metric__row"><span>Direction accuracy (close)</span><strong>47.9%</strong></div>
+              <div class="bar bar--warn" role="img" aria-label="Direction accuracy 47.9 percent, against a 50 percent coin-flip line"><span style="--v:47.9%"></span><i class="bar__mark" style="--m:50%"></i></div>
+              <p class="metric__note">Dashed line = 50% coin flip</p>
+            </div>
+            <div class="metric">
+              <div class="metric__row"><span>RMSE (close)</span><strong>$5,049</strong></div>
+            </div>
+          </figure>
+          <details class="deep">
+            <summary><span>Read the case study</span></summary>
+            <div class="deep__body">
+              <section><h4>Problem</h4>
+                <p>Crypto forecasting dashboards usually show a confident line with no way to judge it. I wanted a platform where every forecast came with the metrics needed to decide how much to trust it.</p></section>
+              <section><h4>Approach</h4>
+                <ul>
+                  <li><strong>Ingestion:</strong> OHLCV candles from the Binance REST API, paginated past the 1,000-row limit, with a CSV fallback if the API fails.</li>
+                  <li><strong>Features:</strong> moving averages (12/24/168 h hourly; 7/14/30/50 d daily), returns, rolling volatility, price range, high/low ratio, volume MA.</li>
+                  <li><strong>Models:</strong> a stacked LSTM (128→64→32 units, L2, batch-norm, dropout) trained in notebooks; scikit-learn Gradient Boosting (multi-output) for the 7/15/30-day horizons served by the API.</li>
+                  <li><strong>Serving:</strong> FastAPI with JWT auth and MongoDB (Motor); retrains a cached daily model when it is over 7 days old or the data has shifted by more than 10%.</li>
+                  <li><strong>Interface:</strong> React + Recharts dashboard with per-horizon RMSE/MAE/R² and SMA, EMA, Bollinger and RSI overlays.</li>
+                </ul></section>
+              <section><h4>My role</h4>
+                <p>Built during the Infosys Springboard AI internship (Batch 5). I am the sole committer on the public repository.</p></section>
+              <section><h4>Results</h4>
+                <p>On a chronological 80/20 split for BTC, the LSTM reached R² 0.94 and RMSE ≈ $5,049 on close price. Direction accuracy was 47.9% for close and 57.8% for open.</p></section>
+              <section><h4>Limitations &amp; lessons</h4>
+                <p>The high R² mostly reflects persistence: tomorrow’s price is close to today’s. Near-50% direction accuracy means the model has <strong>no reliable trading edge</strong>, and the platform should not be used for trading decisions. The biggest lesson was to report direction accuracy next to R² from the start, because R² alone flatters price models.</p></section>
+            </div>
+          </details>
+        </article>
+
+        <!-- Supermarket Ops Agent -->
+        <article class="case case--flip reveal" id="project-opsagent" data-tags="ai fullstack data" aria-labelledby="oa-title">
+          <div class="case__meta">
+            <p class="case__index">P—02</p>
+            <p class="case__kind">LLM agent · Take-home engineering task · 2026</p>
+          </div>
+          <div class="case__main">
+            <h3 class="case__title" id="oa-title">Supermarket Ops Agent</h3>
+            <p class="case__hook">A neighbourhood store run entirely through Telegram chat: billing, stock, credit ledgers and GST invoices, all driven by Claude calling tools.</p>
+            <ul class="tags" aria-label="Technologies">
+              <li>TypeScript</li><li>Anthropic SDK</li><li>PostgreSQL</li><li>Prisma</li><li>grammY</li><li>Docker Compose</li><li>Vitest</li>
+            </ul>
+            <div class="case__links">
+              <a class="link-arrow" href="https://github.com/MdIbuA/SuperMarketAgent" target="_blank" rel="noopener">Source on GitHub<span class="visually-hidden"> (opens in a new tab)</span></a>
+            </div>
+          </div>
+          <figure class="case__art art-trace" aria-labelledby="oa-fig">
+            <figcaption id="oa-fig" class="label">One message → a chain of tool calls</figcaption>
+            <p class="trace__msg">“make a bill: 2kg sugar, 4 Maggi, UPI”</p>
+            <ol class="trace__steps">
+              <li><code>search_products</code><span>sugar</span></li>
+              <li><code>search_products</code><span>maggi</span></li>
+              <li><code>create_bill</code><span>DRAFT</span></li>
+              <li><code>add_bill_item</code><span>× 2</span></li>
+              <li><code>set_payment_method</code><span>UPI</span></li>
+            </ol>
+          </figure>
+          <details class="deep">
+            <summary><span>Read the case study</span></summary>
+            <div class="deep__body">
+              <section><h4>Problem</h4>
+                <p>Small Indian stores track inventory, bills and customer credit (<em>khata</em>) on paper. The brief: make the chat itself the product, with no dashboard or admin panel.</p></section>
+              <section><h4>Architecture</h4>
+                <p>A hand-written agent loop on the Anthropic SDK, capped at 15 rounds. Claude picks from 32 typed tools across inventory, billing, khata, analytics, documents and preferences. Each tool validates its input and returns structured results. All business data comes from PostgreSQL through tools, so the model never makes up prices or stock.</p></section>
+              <section><h4>Hard parts</h4>
+                <ul>
+                  <li><strong>Money:</strong> stored as integer paise; GST (CGST/SGST split) computed deterministically with Decimal.js.</li>
+                  <li><strong>Overselling:</strong> atomic conditional update — <code>… WHERE quantity &gt;= $1</code> — returns a structured error the model explains.</li>
+                  <li><strong>Concurrency:</strong> serializable isolation and row locks on bill finalization.</li>
+                  <li><strong>Idempotency:</strong> processed Telegram update IDs are recorded; re-finalizing a bill returns the existing result.</li>
+                  <li><strong>Real artifacts:</strong> PDF invoices (pdfkit) and PPTX analysis decks with charts (pptxgenjs).</li>
+                </ul></section>
+              <section><h4>Why no agent framework</h4>
+                <p>The loop is about 50 lines. Owning it directly gave full control over tool execution, retries and round limits, and made it easy to reason about.</p></section>
+              <section><h4>Limitations</h4>
+                <p>Single store per bot, no real payment processing, text-only input, and conversation history held in memory (business data persists in Postgres).</p></section>
+            </div>
+          </details>
+        </article>
+
+        <!-- DocuMind -->
+        <article class="case reveal" id="project-documind" data-tags="ai cloud fullstack" aria-labelledby="dm-title">
+          <div class="case__meta">
+            <p class="case__index">P—03</p>
+            <p class="case__kind">Serverless GenAI · AWS Builder Center weekend challenge · Aug 2026</p>
+          </div>
+          <div class="case__main">
+            <h3 class="case__title" id="dm-title">DocuMind AI</h3>
+            <p class="case__hook">Upload a PDF; get a summary, answers grounded in the document, entity extraction, tone analysis, two-document comparison and an exportable report.</p>
+            <ul class="tags" aria-label="Technologies">
+              <li>Amazon Bedrock (Nova Pro)</li><li>AWS Lambda · Python 3.12</li><li>S3 + CloudFront</li><li>React + Vite</li>
+            </ul>
+            <div class="case__links">
+              <a class="link-arrow" href="https://github.com/MdIbuA/DocuMind-AI" target="_blank" rel="noopener">Source on GitHub<span class="visually-hidden"> (opens in a new tab)</span></a>
+              <a class="link-arrow" href="https://builder.aws.com/content/3IXxyXBIA0XvQy27nJLaev2clbM/weekend-showcase-challenge-documind-ai" target="_blank" rel="noopener">Published write-up<span class="visually-hidden"> on AWS Builder Center (opens in a new tab)</span></a>
+            </div>
+          </div>
+          <figure class="case__art art-pipe" aria-labelledby="dm-fig">
+            <figcaption id="dm-fig" class="label">Request path</figcaption>
+            <ol class="pipe">
+              <li><span>PDF</span><small>stored in S3</small></li>
+              <li><span>pypdf</span><small>text extraction</small></li>
+              <li><span>Context</span><small>truncated to ~12k chars</small></li>
+              <li><span>Nova Pro</span><small>structured JSON</small></li>
+              <li><span>UI</span><small>summary · Q&amp;A · export</small></li>
+            </ol>
+          </figure>
+          <details class="deep">
+            <summary><span>Read the case study</span></summary>
+            <div class="deep__body">
+              <section><h4>Architecture</h4>
+                <p>A React SPA on S3 behind CloudFront talks to a Python Lambda. Lambda extracts text with pypdf, builds a task-specific prompt, and asks Bedrock’s Nova Pro for strict JSON so the frontend can render structured results. IAM roles scope access to Bedrock and S3. A mock mode lets the frontend run locally without an AWS account.</p></section>
+              <section><h4>How answers are grounded</h4>
+                <p>The extracted document text goes straight into the prompt (about 12–14k characters, depending on the task), and the model is told to answer from that text. There is no vector index; this is “long-context stuffing”, not retrieval.</p></section>
+              <section><h4>Limitations &amp; next steps</h4>
+                <p>Long documents get truncated, so answers can miss later sections. Scanned PDFs have no text layer and are not OCR’d. The natural next step is chunking plus embedding retrieval, with citations back to page numbers.</p></section>
+            </div>
+          </details>
+        </article>
+
+        <!-- Two projects without public code, set as a pair -->
+        <div class="work__pair">
+          <article class="case case--compact reveal" id="project-crisis" data-tags="ai" aria-labelledby="cr-title">
+            <div class="case__meta">
+              <p class="case__index">P—04</p>
+              <p class="case__kind">RAG prototype · Code not public</p>
+            </div>
+            <div class="case__main">
+              <h3 class="case__title" id="cr-title">Crisis Response Coordinator</h3>
+              <p class="case__hook">AI-assisted emergency triage that retrieves the relevant safety and medical protocol before generating guidance, instead of answering from model memory.</p>
+              <ul class="tags" aria-label="Technologies">
+                <li>Python</li><li>LangChain</li><li>RAG</li><li>FastAPI</li><li>Docker</li>
+              </ul>
+              <div class="case__links">
+                <a class="link-arrow" href="https://youtu.be/Vp-1W_Ry3mM" target="_blank" rel="noopener">Watch the demo<span class="visually-hidden"> on YouTube (opens in a new tab)</span></a>
+              </div>
+            </div>
+            <figure class="case__art art-flow" aria-labelledby="cr-fig">
+              <figcaption id="cr-fig" class="label">Grounding loop</figcaption>
+              <ol class="flow">
+                <li>Incident report</li>
+                <li>Retrieve protocol passages</li>
+                <li>Generate guidance from them</li>
+                <li class="flow__human">Human responder decides</li>
+              </ol>
+            </figure>
+            <details class="deep">
+              <summary><span>Scope &amp; limitations</span></summary>
+              <div class="deep__body">
+                <p>A prototype: incoming reports are matched against a protocol knowledge base, and the retrieved passages condition the generated guidance. It has not been evaluated with trained responders or used in a real dispatch setting. Any output is decision support for a qualified person, never instructions on its own.</p>
+              </div>
+            </details>
+          </article>
+
+          <article class="case case--compact reveal" id="project-bone" data-tags="ai" aria-labelledby="bd-title">
+            <div class="case__meta">
+              <p class="case__index">P—05</p>
+              <p class="case__kind">Computer vision research · Code not public</p>
+            </div>
+            <div class="case__main">
+              <h3 class="case__title" id="bd-title">Bone density classification</h3>
+              <p class="case__hook">Deep learning that sorts knee X-rays into Normal, Osteopenia and Osteoporosis, with Grad-CAM showing which regions drove each prediction.</p>
+              <ul class="tags" aria-label="Technologies">
+                <li>CNNs</li><li>Transfer learning</li><li>Xception</li><li>MobileNet</li><li>Attention</li><li>Grad-CAM</li>
+              </ul>
+            </div>
+            <figure class="case__art art-classes" aria-labelledby="bd-fig">
+              <figcaption id="bd-fig" class="label">Pipeline (schematic)</figcaption>
+              <div class="classes">
+                <span class="classes__in">X-ray</span>
+                <span class="classes__net">Xception / MobileNet<br>+ attention</span>
+                <ul class="classes__out"><li>Normal</li><li>Osteopenia</li><li>Osteoporosis</li></ul>
+              </div>
+            </figure>
+            <details class="deep">
+              <summary><span>Scope &amp; limitations</span></summary>
+              <div class="deep__body">
+                <p>Pretrained Xception and MobileNet backbones were fine-tuned with an attention mechanism, and Grad-CAM was used to check whether the networks looked at bone structure rather than artefacts. I am not quoting an accuracy figure here until the dataset, split and evaluation are published alongside it. This is a research prototype, not a clinically validated diagnostic tool.</p>
+              </div>
+            </details>
+          </article>
+        </div>
+      </div>
+
+      <!-- Project index -->
+      <div class="index" id="index">
+        <h3 class="index__title" id="index-title">More builds &amp; experiments</h3>
+        <ol class="index__list">
+          <li class="index__row" data-tags="fullstack ai">
+            <a href="https://mdibua.github.io/Celebrai/" target="_blank" rel="noopener">
+              <span class="index__name">CelebrAI</span>
+              <span class="index__desc">Event planner: a validated budget engine (integer paise), backward-scheduled timelines, and an LLM layer behind a schema gate. Zero runtime dependencies, with a test suite.</span>
+              <span class="index__stack">Vanilla JS · LLM · Tests</span>
+              <span class="index__go">Live app<span class="visually-hidden"> (opens in a new tab)</span></span>
+            </a>
+          </li>
+          <li class="index__row" data-tags="cloud ai">
+            <a href="https://github.com/MdIbuA/GitBard" target="_blank" rel="noopener">
+              <span class="index__name">The Git Bard</span>
+              <span class="index__desc">A scheduled serverless agent: every Friday it pulls the week’s commits and emails them as a fantasy chronicle written by Bedrock.</span>
+              <span class="index__stack">EventBridge · Lambda · Bedrock · SES · SAM</span>
+              <span class="index__go">Source<span class="visually-hidden"> (opens in a new tab)</span></span>
+            </a>
+          </li>
+          <li class="index__row" data-tags="cloud ai fullstack">
+            <a href="https://github.com/MdIbuA/tiny-tale-toy" target="_blank" rel="noopener">
+              <span class="index__name">Tiny Tale Toy</span>
+              <span class="index__desc">A choose-your-own-adventure game where every branch is generated live, with a defensive JSON parser for messy model output.</span>
+              <span class="index__stack">API Gateway · Lambda · Bedrock · Amplify</span>
+              <span class="index__go">Source<span class="visually-hidden"> (opens in a new tab)</span></span>
+            </a>
+          </li>
+          <li class="index__row" data-tags="fullstack cloud ai">
+            <a href="https://github.com/MdIbuA/Ecotrack-AI" target="_blank" rel="noopener">
+              <span class="index__name">EcoTrack AI</span>
+              <span class="index__desc">A carbon-footprint tracker with a multi-step calculator, Gemini coaching and receipt scanning through Gemini vision.</span>
+              <span class="index__stack">React · Express on Cloud Run · Firebase · Gemini</span>
+              <span class="index__go">Source<span class="visually-hidden"> (opens in a new tab)</span></span>
+            </a>
+          </li>
+          <li class="index__row" data-tags="ai cloud fullstack">
+            <a href="https://github.com/MdIbuA/votersaathi" target="_blank" rel="noopener">
+              <span class="index__name">Voter Saathi</span>
+              <span class="index__desc">A non-partisan election guide in 12 Indian languages: a rule-based state machine for structured flows, with Gemini for free-form questions.</span>
+              <span class="index__stack">Node.js · Gemini · Docker · Cloud Run</span>
+              <span class="index__go">Source<span class="visually-hidden"> (opens in a new tab)</span></span>
+            </a>
+          </li>
+          <li class="index__row" data-tags="fullstack data">
+            <a href="https://github.com/MdIbuA/unileave-student-leave-management" target="_blank" rel="noopener">
+              <span class="index__name">UniLeave &amp; GrievanceHub</span>
+              <span class="index__desc">Two campus workflow apps covering leave approvals and grievance tracking, with role-based modules and dashboards.</span>
+              <span class="index__stack">Oracle APEX · Oracle Database · PL/SQL</span>
+              <span class="index__go">Source<span class="visually-hidden"> (opens in a new tab)</span></span>
+            </a>
+          </li>
+          <li class="index__row" data-tags="fullstack ai">
+            <a href="https://github.com/MdIbuA/Alzheimer-s-analysis" target="_blank" rel="noopener">
+              <span class="index__name">Voice screening UI <em class="flag">prototype</em></span>
+              <span class="index__desc">A multilingual interface for an Alzheimer’s voice-analysis workflow: recording and upload flow, plus a biomarker report layout. The analysis layer is still simulated; no model has been trained yet.</span>
+              <span class="index__stack">React · TypeScript · i18n</span>
+              <span class="index__go">Source<span class="visually-hidden"> (opens in a new tab)</span></span>
+            </a>
+          </li>
+        </ol>
+        <p class="index__empty" data-filter-empty hidden>No builds in this category yet.</p>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <header class="section__head">
+        <p class="section__num" aria-hidden="true">02</p>
+        <h2 class="section__title" id="about-title">How I work</h2>
+      </header>
+      <div class="about__grid">
+        <figure class="about__portrait reveal">
+          <picture>
+            <source type="image/webp" srcset="assets/img/ibu-portrait-480.webp 480w, assets/img/ibu-portrait-800.webp 800w" sizes="(min-width: 64em) 26vw, (min-width: 40em) 40vw, 80vw">
+            <img src="assets/img/ibu-portrait-480.jpg" width="480" height="640" alt="Portrait of Mohamed Ibrahim A. in a dark blazer and white shirt, wearing clear-framed glasses." loading="lazy" decoding="async">
+          </picture>
+          <figcaption class="label">Mohamed Ibrahim A. — Coimbatore</figcaption>
+        </figure>
+        <div class="about__text">
+          <p class="about__lead">I’m drawn to the space between a model that works in a notebook and a product someone can use.</p>
+          <p>Most of my projects cross that gap end to end. In CryptoPulse, the same codebase pulls market data, trains models, serves them through FastAPI and charts them in React. In the Supermarket Ops Agent, the hard problems weren’t prompts. They were paise-precise money, row locks and idempotent message handling.</p>
+          <p>My default is to start with the failure modes. What happens when the API is down, when the model invents a price, when two bills finalize at once? Then I write the limitations next to the results, because a 0.94 R² means little without a 48% direction accuracy beside it.</p>
+          <p>Outside coursework I build in public through cloud weekend challenges and stay close to developer communities as an AWS Student Builder Campus Leader and a Microsoft Learn Student Ambassador. Next, I want to work on production AI systems where reliability, evaluation and cost matter as much as the model.</p>
+          <ol class="principles">
+            <li><span>01</span>Ground the model in real data; never let it invent facts.</li>
+            <li><span>02</span>Measure honestly, including the metric that makes you look worse.</li>
+            <li><span>03</span>Prefer boring, owned code over a framework you can’t debug.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ STACK ============ -->
+    <section class="section stack" id="stack" aria-labelledby="stack-title">
+      <header class="section__head">
+        <p class="section__num" aria-hidden="true">03</p>
+        <h2 class="section__title" id="stack-title">Capabilities</h2>
+        <p class="section__intro">
+          <span class="key key--built" aria-hidden="true"></span> Used in a project on this page
+          <span class="key key--studied" aria-hidden="true"></span> Studied through coursework or training
+        </p>
+      </header>
+      <div class="stack__grid">
+        <section class="stack__group reveal" aria-labelledby="sg1">
+          <p class="stack__num" aria-hidden="true">01</p>
+          <h3 id="sg1">Software engineering</h3>
+          <p>Typed, tested code with explicit failure handling.</p>
+          <ul class="skills">
+            <li class="is-built">Python</li><li class="is-built">JavaScript</li><li class="is-built">TypeScript</li><li class="is-built">SQL · PL/SQL</li>
+            <li class="is-studied">Java</li><li class="is-studied">C</li><li class="is-studied">C++</li>
+          </ul>
+        </section>
+        <section class="stack__group reveal" aria-labelledby="sg2">
+          <p class="stack__num" aria-hidden="true">02</p>
+          <h3 id="sg2">Full-stack</h3>
+          <p>From database schema to the interface, usually across a REST API.</p>
+          <ul class="skills">
+            <li class="is-built">React</li><li class="is-built">Node.js</li><li class="is-built">Express</li><li class="is-built">FastAPI</li><li class="is-built">REST APIs</li><li class="is-built">MongoDB</li><li class="is-built">PostgreSQL · Prisma</li><li class="is-built">Oracle APEX</li>
+          </ul>
+        </section>
+        <section class="stack__group reveal" aria-labelledby="sg3">
+          <p class="stack__num" aria-hidden="true">03</p>
+          <h3 id="sg3">AI engineering</h3>
+          <p>LLM apps with tools and grounding, plus classic ML and deep learning.</p>
+          <ul class="skills">
+            <li class="is-built">Tool-calling agents</li><li class="is-built">RAG</li><li class="is-built">Amazon Bedrock</li><li class="is-built">Claude API</li><li class="is-built">Gemini API</li><li class="is-built">LangChain</li><li class="is-built">TensorFlow / Keras</li><li class="is-built">scikit-learn</li><li class="is-built">Computer vision</li><li class="is-built">NLP</li>
+          </ul>
+        </section>
+        <section class="stack__group reveal" aria-labelledby="sg4">
+          <p class="stack__num" aria-hidden="true">04</p>
+          <h3 id="sg4">Cloud &amp; data</h3>
+          <p>Serverless-first on AWS, containers on Google Cloud.</p>
+          <ul class="skills">
+            <li class="is-built">AWS Lambda · S3 · CloudFront</li><li class="is-built">EventBridge · SES · SAM</li><li class="is-built">Google Cloud Run</li><li class="is-built">Firebase</li><li class="is-built">Data pipelines</li>
+            <li class="is-studied">Oracle Cloud</li><li class="is-studied">Azure</li><li class="is-studied">BigQuery</li><li class="is-studied">Snowflake</li>
+          </ul>
+        </section>
+        <section class="stack__group reveal" aria-labelledby="sg5">
+          <p class="stack__num" aria-hidden="true">05</p>
+          <h3 id="sg5">DevOps &amp; delivery</h3>
+          <p>Reproducible environments and automated deploys.</p>
+          <ul class="skills">
+            <li class="is-built">Docker</li><li class="is-built">Git</li><li class="is-built">GitHub Actions</li><li class="is-built">CI/CD</li>
+            <li class="is-studied">Kubernetes</li>
+          </ul>
+        </section>
+      </div>
+    </section>
+
+    <!-- ============ PATH ============ -->
+    <section class="section path" id="path" aria-labelledby="path-title">
+      <header class="section__head">
+        <p class="section__num" aria-hidden="true">04</p>
+        <h2 class="section__title" id="path-title">Experience &amp; leadership</h2>
+      </header>
+      <div class="path__grid">
+        <div class="path__col">
+          <h3 class="path__heading">Internships</h3>
+          <ol class="ledger">
+            <li class="ledger__row reveal">
+              <p class="ledger__type">Internship</p>
+              <h4 class="ledger__role">Backend AI Engineer Intern</h4>
+              <p class="ledger__org">FlyRank AI</p>
+            </li>
+            <li class="ledger__row reveal">
+              <p class="ledger__type">Virtual internship · Batch 5</p>
+              <h4 class="ledger__role">AI Intern</h4>
+              <p class="ledger__org">Infosys Springboard</p>
+              <p class="ledger__note">Built <a href="#project-cryptopulse">CryptoPulse</a>, an end-to-end forecasting platform, as the internship project.</p>
+            </li>
+            <li class="ledger__row reveal">
+              <p class="ledger__type">Virtual internship</p>
+              <h4 class="ledger__role">MERN Stack Developer Intern</h4>
+              <p class="ledger__org">AICTE internship program</p>
+            </li>
+          </ol>
+        </div>
+        <div class="path__col">
+          <h3 class="path__heading">Community &amp; education</h3>
+          <ol class="ledger">
+            <li class="ledger__row reveal">
+              <p class="ledger__type">Student leadership</p>
+              <h4 class="ledger__role">AWS Student Builder Campus Leader</h4>
+              <p class="ledger__org">Amazon Web Services student program</p>
+            </li>
+            <li class="ledger__row reveal">
+              <p class="ledger__type">Student program</p>
+              <h4 class="ledger__role">Microsoft Learn Student Ambassador (Associate)</h4>
+              <p class="ledger__org">Microsoft</p>
+            </li>
+            <li class="ledger__row reveal">
+              <p class="ledger__type">Hackathons &amp; challenges</p>
+              <h4 class="ledger__role">Build challenges</h4>
+              <p class="ledger__note">AWS Builder Center weekend challenges (<a href="#project-documind">DocuMind AI</a>, The Git Bard) and HackerRank Orchestrate rounds.</p>
+            </li>
+            <li class="ledger__row reveal">
+              <p class="ledger__type">Education · expected June 2027</p>
+              <h4 class="ledger__role">B.Tech, Information Technology</h4>
+              <p class="ledger__org">Coimbatore, Tamil Nadu</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WRITING ============ -->
+    <section class="section writing" id="writing" aria-labelledby="writing-title">
+      <header class="section__head">
+        <p class="section__num" aria-hidden="true">05</p>
+        <h2 class="section__title" id="writing-title">Writing</h2>
+        <p class="section__intro">One published article, plus long-form engineering notes that live in project READMEs.</p>
+      </header>
+      <ul class="notes">
+        <li class="note reveal">
+          <a href="https://builder.aws.com/content/3IXxyXBIA0XvQy27nJLaev2clbM/weekend-showcase-challenge-documind-ai" target="_blank" rel="noopener">
+            <span class="note__type">Article · AWS Builder Center · Aug 2026</span>
+            <span class="note__title">Weekend Showcase Challenge: DocuMind AI</span>
+            <span class="note__desc">Building a serverless document-intelligence app on Bedrock Nova Pro in a weekend.</span>
+            <span class="visually-hidden">(opens in a new tab)</span>
+          </a>
+        </li>
+        <li class="note reveal">
+          <a href="https://github.com/MdIbuA/SuperMarketAgent#hard-parts--how-theyre-solved" target="_blank" rel="noopener">
+            <span class="note__type">Build notes · README</span>
+            <span class="note__title">Hard parts of a chat-only store agent</span>
+            <span class="note__desc">Grounding, oversell guards, GST correctness, idempotency and concurrency.</span>
+            <span class="visually-hidden">(opens in a new tab)</span>
+          </a>
+        </li>
+        <li class="note reveal">
+          <a href="https://github.com/MdIbuA/Celebrai#12-known-limitations" target="_blank" rel="noopener">
+            <span class="note__type">Build notes · README</span>
+            <span class="note__title">CelebrAI: what the tests missed</span>
+            <span class="note__desc">An honest list of known limitations for an AI planning tool.</span>
+            <span class="visually-hidden">(opens in a new tab)</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <p class="section__num" aria-hidden="true">06</p>
+      <h2 class="contact__title" id="contact-title">Let’s build something <span class="accent">that holds up.</span></h2>
+      <p class="contact__lede">Hiring for software or AI engineering, or have a hard problem worth prototyping? Email is the fastest way to reach me.</p>
+      <div class="contact__row">
+        <a class="contact__email" href="mailto:2005mohamedibrahim@gmail.com">2005mohamedibrahim@gmail.com</a>
+        <button type="button" class="btn btn--ghost btn--small js-only" data-copy="2005mohamedibrahim@gmail.com">Copy email</button>
+        <span class="copy-status" role="status" data-copy-status></span>
+      </div>
+      <ul class="contact__links">
+        <li><a href="https://github.com/MdIbuA" target="_blank" rel="me noopener">GitHub — @MdIbuA<span class="visually-hidden"> (opens in a new tab)</span></a></li>
+        <li><a href="https://www.linkedin.com/in/mohamedibrahimbinabdullah" target="_blank" rel="me noopener">LinkedIn — Mohamed Ibrahim<span class="visually-hidden"> (opens in a new tab)</span></a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span data-year>2026</span> Mohamed Ibrahim A. Hand-built with HTML, CSS and a little JavaScript. No trackers.</p>
+    <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
+  </footer>
+
+  <!-- Command menu -->
+  <dialog class="cmd" data-cmd aria-label="Command menu">
+    <div class="cmd__box">
+      <div class="cmd__search">
+        <label class="visually-hidden" for="cmd-input">Type a command or section</label>
+        <span class="cmd__prompt" aria-hidden="true">›</span>
+        <input id="cmd-input" type="text" autocomplete="off" spellcheck="false" placeholder="Jump to a section, project or profile…"
+               role="combobox" aria-expanded="true" aria-controls="cmd-list" aria-autocomplete="list">
+        <kbd class="cmd__esc">Esc</kbd>
+      </div>
+      <ul class="cmd__list" id="cmd-list" role="listbox" aria-label="Results"></ul>
     </div>
-    <div class="floating-circles">
-        <div class="circle"></div>
-        <div class="circle"></div>
-        <div class="circle"></div>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-    <script src="script.js"></script>
+  </dialog>
 </body>
 </html>
