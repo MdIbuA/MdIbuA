@@ -1104,9 +1104,27 @@ button { font: inherit; color: inherit; }
   overflow-wrap: anywhere;
 }
 .copy-status { font-family: var(--font-mono); font-size: 0.8rem; color: var(--lime); }
-.contact__links { display: flex; flex-wrap: wrap; gap: 0.25rem 2rem; margin-top: 1.5rem; }
-.contact__links a { display: inline-flex; align-items: center; min-height: 2.75rem; color: var(--muted); }
-.contact__links a:hover { color: var(--lime); }
+.contact__links {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 22rem), 1fr));
+  margin-top: 2.5rem;
+  border-top: 1px solid var(--line);
+}
+.contact__links a {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: baseline;
+  gap: 1rem;
+  min-height: 3.25rem;
+  padding: 0.85rem 0.25rem;
+  border-bottom: 1px solid var(--line);
+  text-decoration: none;
+}
+.contact__k { font-weight: 500; }
+.contact__v { font-family: var(--font-mono); font-size: 0.78rem; color: var(--muted); overflow-wrap: anywhere; text-align: right; }
+.contact__links a:hover .contact__k, .contact__links a:hover .contact__v { color: var(--lime); }
+.contact__links a::after { content: "↗"; color: var(--lime); }
+@media (min-width: 40em) { .contact__links { column-gap: 2rem; } }
 
 /* ---------- Footer ---------- */
 .site-footer {

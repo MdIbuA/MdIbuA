@@ -246,8 +246,13 @@ const COMMANDS = [
   ['Projects', 'More builds & experiments', '#index'],
   ['Elsewhere', 'GitHub — @MdIbuA', 'https://github.com/MdIbuA'],
   ['Elsewhere', 'LinkedIn', 'https://www.linkedin.com/in/mohamedibrahimbinabdullah'],
+  ['Elsewhere', 'AWS Builder Center — @abufawaz', 'https://builder.aws.com/community/@abufawaz'],
+  ['Elsewhere', 'YouTube channel', 'https://www.youtube.com/@MohamedIbrahimAbdullahIn'],
+  ['Elsewhere', 'X — @Ibu_dev', 'https://x.com/Ibu_dev'],
+  ['Elsewhere', 'LeetCode', 'https://leetcode.com/u/Ibrahimalmuntasir'],
+  ['Elsewhere', 'HackerRank', 'https://www.hackerrank.com/profile/ibrahimdev'],
   ['Elsewhere', 'AWS Builder article — DocuMind', 'https://builder.aws.com/content/3IXxyXBIA0XvQy27nJLaev2clbM/weekend-showcase-challenge-documind-ai'],
-  ['Actions', 'Email Ibu', 'mailto:2005mohamedibrahim@gmail.com'],
+  ['Actions', 'Email Ibu', 'mailto:ibrahimanees.work@gmail.com'],
 ];
 
 function initCommandMenu() {
