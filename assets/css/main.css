@@ -441,7 +441,7 @@ button { font: inherit; color: inherit; }
   font-size: 0.92rem;
   color: var(--muted);
 }
-.hero__facts li { display: grid; grid-template-columns: 6.5rem minmax(0, 1fr); gap: 1rem; }
+.hero__facts > li { display: grid; grid-template-columns: 6.5rem minmax(0, 1fr); gap: 1rem; }
 .hero__facts a { color: var(--text); display: inline-block; padding-block: 0.2rem; }
 .hero__facts a:hover { color: var(--lime); }
 .fact__k {
@@ -453,7 +453,7 @@ button { font: inherit; color: inherit; }
   padding-top: 0.2rem;
 }
 @media (max-width: 26em) {
-  .hero__facts li { grid-template-columns: minmax(0, 1fr); gap: 0.1rem; }
+  .hero__facts > li { grid-template-columns: minmax(0, 1fr); gap: 0.1rem; }
 }
 
 /* Load-in for hero lines (JS adds .is-ready on <html>). */
@@ -1112,19 +1112,48 @@ button { font: inherit; color: inherit; }
 }
 .contact__links a {
   display: grid;
-  grid-template-columns: auto minmax(0, 1fr) auto;
-  align-items: baseline;
-  gap: 1rem;
-  min-height: 3.25rem;
+  grid-template-columns: 1.5rem auto minmax(0, 1fr);
+  align-items: center;
+  gap: 0.85rem;
+  min-height: 3.5rem;
   padding: 0.85rem 0.25rem;
   border-bottom: 1px solid var(--line);
   text-decoration: none;
 }
+.contact__links .icon { width: 1.35rem; height: 1.35rem; color: var(--brand); }
 .contact__k { font-weight: 500; }
-.contact__v { font-family: var(--font-mono); font-size: 0.78rem; color: var(--muted); overflow-wrap: anywhere; text-align: right; }
-.contact__links a:hover .contact__k, .contact__links a:hover .contact__v { color: var(--lime); }
-.contact__links a::after { content: "↗"; color: var(--lime); }
+/* The username is the visible link text: underlined like every other link. */
+.contact__v {
+  justify-self: end;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--text);
+  text-align: right;
+  overflow-wrap: anywhere;
+  text-decoration: underline;
+  text-decoration-color: var(--lime);
+  text-underline-offset: 0.25em;
+}
+.contact__links a:hover .contact__v, .contact__links a:focus-visible .contact__v { color: var(--lime); }
+.contact__links a:hover .contact__k { color: var(--text); }
 @media (min-width: 40em) { .contact__links { column-gap: 2rem; } }
+
+/* Hero profile icons */
+.icon-sprite { position: absolute; width: 0; height: 0; overflow: hidden; }
+.icon { display: block; fill: currentColor; flex: none; }
+.socials { display: flex; flex-wrap: wrap; gap: 0.25rem; margin-left: -0.6rem; }
+.hero__facts .socials__link {
+  display: inline-grid;
+  place-items: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0;
+  color: var(--muted);
+  border-radius: var(--radius);
+  transition: color 0.2s var(--ease), background-color 0.2s var(--ease);
+}
+.socials .icon { width: 1.2rem; height: 1.2rem; }
+.hero__facts .socials__link:hover, .hero__facts .socials__link:focus-visible { color: var(--brand); background: var(--bg-raised); }
 
 /* ---------- Footer ---------- */
 .site-footer {
