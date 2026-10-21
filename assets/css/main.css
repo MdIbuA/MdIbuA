@@ -1111,8 +1111,7 @@ button { font: inherit; color: inherit; }
   border-top: 1px solid var(--line);
 }
 .contact__links a {
-  display: grid;
-  grid-template-columns: 1.5rem auto minmax(0, 1fr);
+  display: flex;
   align-items: center;
   gap: 0.85rem;
   min-height: 3.5rem;
@@ -1121,21 +1120,14 @@ button { font: inherit; color: inherit; }
   text-decoration: none;
 }
 .contact__links .icon { width: 1.35rem; height: 1.35rem; color: var(--brand); }
-.contact__k { font-weight: 500; }
-/* The username is the visible link text: underlined like every other link. */
-.contact__v {
-  justify-self: end;
-  font-family: var(--font-mono);
-  font-size: 0.8rem;
-  color: var(--text);
-  text-align: right;
-  overflow-wrap: anywhere;
+.contact__k {
+  font-weight: 500;
   text-decoration: underline;
   text-decoration-color: var(--lime);
   text-underline-offset: 0.25em;
 }
-.contact__links a:hover .contact__v, .contact__links a:focus-visible .contact__v { color: var(--lime); }
-.contact__links a:hover .contact__k { color: var(--text); }
+.contact__links a::after { content: "↗"; margin-left: auto; color: var(--lime); }
+.contact__links a:hover .contact__k, .contact__links a:focus-visible .contact__k { color: var(--lime); }
 @media (min-width: 40em) { .contact__links { column-gap: 2rem; } }
 
 /* Hero profile icons */
