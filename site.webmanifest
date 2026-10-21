@@ -1,0 +1,12 @@
+{
+  "name": "Mohamed Ibrahim A. — Ibu",
+  "short_name": "Ibu",
+  "start_url": "./",
+  "display": "browser",
+  "background_color": "#0b0c0b",
+  "theme_color": "#0b0c0b",
+  "icons": [
+    { "src": "assets/img/favicon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "assets/img/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}
