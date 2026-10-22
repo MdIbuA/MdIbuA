@@ -54,14 +54,14 @@ def fetch(login, days, token):
 
 
 def nice_max(v):
-    """Round the y-axis ceiling up to 1/2/5 x 10^n so tick labels stay whole."""
-    if v <= 4:
-        return 4
-    mag = 10 ** math.floor(math.log10(v))
-    for m in (1, 2, 5, 10):
-        if v <= m * mag:
-            return m * mag
-    return 10 * mag
+    """Y-axis ceiling split into 4 whole-number ticks of a "nice" size (1, 2, 5, 10, 20, 25, 50...)."""
+    raw = max(1, math.ceil(v / 4))
+    mag = 10 ** math.floor(math.log10(raw))
+    for m in (1, 2, 2.5, 5, 10):
+        step = m * mag
+        if step >= raw and step == int(step):
+            return int(step) * 4
+    return 40 * mag
 
 
 def render(login, data):
@@ -102,7 +102,7 @@ def render(login, data):
         gy = y(v)
         out.append(f'<line x1="{L}" y1="{gy:.1f}" x2="{W - R}" y2="{gy:.1f}" stroke="{GRID}"/>')
         out.append(f'<text x="{L - 12}" y="{gy + 4:.1f}" fill="{MUTED}" font-size="12" text-anchor="end">'
-                   f'{v:g}</text>')
+                   f'{int(v)}</text>')
     out.append(f'<line x1="{L}" y1="{T + ph}" x2="{W - R}" y2="{T + ph}" stroke="{AXIS}"/>')
     out.append(f'<path d="{area}" fill="url(#fill)"/>')
     out.append(f'<path d="{line}" fill="none" stroke="{LINE}" stroke-width="2.5" '
