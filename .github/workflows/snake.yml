@@ -1,4 +1,4 @@
-name: Generate Snake Animation
+name: Generate Snake Animation & Activity Graph
 
 on:
   schedule:
@@ -15,6 +15,19 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      # Self-hosted replacement for the github-readme-activity-graph service.
+      # Must run in this job (the deploy replaces the whole output branch) and before
+      # snk, whose container creates dist/ as root.
+      - uses: actions/checkout@v5
+        with:
+          path: repo
+          sparse-checkout: .github/scripts
+
+      - name: Generate activity graph
+        run: python3 repo/.github/scripts/activity_graph.py MdIbuA dist/activity-graph.svg 31
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+
       - uses: Platane/snk@v3
         id: snake-gif
         with:
