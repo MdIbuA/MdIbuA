@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=MdIbuA&color=1f8ef1&style=for-the-badge&label=PROFILE+VIEWS" alt="Visitor Count" />
+  <img src="https://hits.sh/github.com/MdIbuA.svg?style=for-the-badge&label=Profile%20Views&color=1f8ef1&labelColor=0d1117" alt="Profile views" />
   <img src="https://img.shields.io/github/followers/MdIbuA?label=Followers&style=for-the-badge&color=37BCF7" alt="Followers"/>
   <img src="https://img.shields.io/badge/Status-Building%20the%20Future-success?style=for-the-badge"/>
 </p>
@@ -102,7 +102,7 @@ Currently working toward becoming a **GitHub Campus Expert**, helping peers expl
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MdIbuA&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=37BCF7&line=A8FF60&point=ffffff" alt="Activity Graph"/>
+  <img src="https://raw.githubusercontent.com/MdIbuA/MdIbuA/output/activity-graph.svg" alt="Contribution activity over the last 31 days" width="100%"/>
 </p>
 
 <p align="center">

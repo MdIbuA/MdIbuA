@@ -1,4 +1,4 @@
-name: Generate Snake Animation
+name: Generate Snake Animation & Activity Graph
 
 on:
   schedule:
@@ -22,6 +22,18 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      # Self-hosted replacement for the github-readme-activity-graph service.
+      # Must run in this job: the deploy below replaces the whole output branch.
+      - uses: actions/checkout@v4
+        with:
+          path: repo
+          sparse-checkout: .github/scripts
+
+      - name: Generate activity graph
+        run: python repo/.github/scripts/activity_graph.py MdIbuA dist/activity-graph.svg 31
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
 
       - uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
