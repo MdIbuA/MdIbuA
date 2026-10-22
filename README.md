@@ -4,7 +4,7 @@
 </p>
 
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=30&duration=3000&pause=1000&color=37BCF7&center=true&vCenter=true&width=850&height=60&lines=%F0%9F%9A%80+Mohamed+Ibrahim;%E2%9A%9B%EF%B8%8F+Quantum+Computing+Enthusiast;%F0%9F%A7%A0+AI+%26+ML+Explorer;%F0%9F%8C%90+Edge+%26+Cloud+Builder;%F0%9F%8E%93+GitHub+Campus+Expert+Aspirant"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=30&duration=3000&pause=1000&color=37BCF7&center=true&vCenter=true&width=850&height=60&lines=%F0%9F%9A%80+Mohamed+Ibrahim;%E2%9A%9B%EF%B8%8F+Quantum+Computing+Enthusiast;%F0%9F%A7%A0+AI+%26+ML+Explorer;%F0%9F%8C%90+Edge+%26+Cloud+Builder;%F0%9F%8E%93/>
 </h1>
 
 <p align="center">
