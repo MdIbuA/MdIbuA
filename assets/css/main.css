@@ -620,6 +620,30 @@ button { font: inherit; color: inherit; }
 .sysmap__legend dt { font-family: var(--font-mono); font-size: 0.8rem; }
 .sysmap__legend dd { margin: 0; color: var(--muted); }
 
+/* Signature motion: packets travelling the map, nodes pinging on arrival. */
+.sysmap__packets { position: absolute; inset: 0; pointer-events: none; }
+.packet {
+  position: absolute;
+  width: 8px; height: 8px;
+  margin: -4px 0 0 -4px;
+  background: var(--lime);
+  box-shadow: 0 0 0 3px rgb(200 245 58 / 0.18), 0 0 14px rgb(200 245 58 / 0.55);
+}
+.packet--ambient {
+  width: 4px; height: 4px;
+  margin: -2px 0 0 -2px;
+  background: var(--cyan);
+  box-shadow: none;
+  opacity: 0.7;
+}
+.node.is-ping { animation: ping 0.7s var(--ease); }
+@keyframes ping {
+  0% { box-shadow: 0 0 0 0 rgb(200 245 58 / 0.55); border-color: var(--lime); }
+  100% { box-shadow: 0 0 0 10px rgb(200 245 58 / 0); }
+}
+.hero__line { white-space: nowrap; }
+.decode-slot { display: inline-block; text-align: center; white-space: pre; }
+
 /* ---------- Work ---------- */
 .filters {
   display: flex;

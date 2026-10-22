@@ -430,12 +430,157 @@ function initCopy() {
   }));
 }
 
+/* ---------------------------------------------------------------------------
+   Signature motion 1 — data packets. Lime signals travel the map's edges,
+   replaying the real project flows above; a node pings when one arrives.
+   Off for reduced motion, paused off-screen, in background tabs and while
+   the visitor is exploring a selection.
+--------------------------------------------------------------------------- */
+function initPackets() {
+  const map = $('[data-sysmap]');
+  const canvas = $('.sysmap__canvas', map || document);
+  if (!map || !canvas || reduceMotion.matches) return;
+
+  const layer = document.createElement('div');
+  layer.className = 'sysmap__packets';
+  layer.setAttribute('aria-hidden', 'true');
+  canvas.insertBefore(layer, $('.sysmap__nodes', canvas));
+
+  const pos = Object.fromEntries($$('[data-node]', map).map((b) => [b.dataset.node, b]));
+  const point = (id) => ({ x: parseFloat(pos[id].style.getPropertyValue('--x')), y: parseFloat(pos[id].style.getPropertyValue('--y')) });
+  const hasEdge = (a, b) => EDGES.some((e) => (e.a === a && e.b === b) || (e.a === b && e.b === a));
+
+  // Each flow becomes a list of hops that follow real edges.
+  const routes = Object.values(FLOWS).map((f) => {
+    const ids = f.steps.map(([n]) => n).filter((n, i, arr) => n !== arr[i - 1]);
+    const hops = [];
+    ids.forEach((n, i) => {
+      for (let j = i - 1; j >= 0; j -= 1) {
+        if (hasEdge(ids[j], n)) { hops.push([ids[j], n]); break; }
+      }
+    });
+    return hops;
+  });
+
+  let visible = false;
+  let running = false;
+  const paused = () => !visible || document.hidden || map.classList.contains('has-selection');
+  const wait = (ms) => new Promise((r) => window.setTimeout(r, ms));
+
+  const travel = (a, b, { dur = 620, trail = true } = {}) => new Promise((resolve) => {
+    const dot = document.createElement('span');
+    dot.className = trail ? 'packet' : 'packet packet--ambient';
+    layer.appendChild(dot);
+    const p0 = point(a);
+    const p1 = point(b);
+    const t0 = performance.now();
+    const frame = (now) => {
+      const t = Math.min((now - t0) / dur, 1);
+      const e = t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+      dot.style.left = `${p0.x + (p1.x - p0.x) * e}%`;
+      dot.style.top = `${p0.y + (p1.y - p0.y) * e}%`;
+      if (t < 1) { requestAnimationFrame(frame); return; }
+      dot.remove();
+      if (trail) {
+        pos[b].classList.remove('is-ping');
+        void pos[b].offsetWidth; // restart the ping animation
+        pos[b].classList.add('is-ping');
+      }
+      resolve();
+    };
+    requestAnimationFrame(frame);
+  });
+
+  const loop = async () => {
+    if (running) return;
+    running = true;
+    let r = Math.floor(Math.random() * routes.length);
+    while (!paused()) {
+      for (const [a, b] of routes[r]) {
+        if (paused()) break;
+        // A faint companion packet on a random edge keeps the system feeling alive.
+        if (Math.random() < 0.45) {
+          const e = EDGES[Math.floor(Math.random() * EDGES.length)];
+          travel(e.a, e.b, { dur: 1100, trail: false });
+        }
+        await travel(a, b);
+        await wait(140);
+      }
+      r = (r + 1) % routes.length;
+      await wait(1100);
+    }
+    running = false;
+  };
+
+  $$('[data-node]', map).forEach((b) => b.addEventListener('animationend', () => b.classList.remove('is-ping')));
+
+  new IntersectionObserver(([entry]) => {
+    visible = entry.isIntersecting;
+    if (!paused()) loop();
+  }, { threshold: 0.2 }).observe(map);
+  document.addEventListener('visibilitychange', () => { if (!paused()) loop(); });
+  // Resume a moment after the visitor clears their selection.
+  new MutationObserver(() => { if (!paused()) window.setTimeout(loop, 600); })
+    .observe(map, { attributes: true, attributeFilter: ['class'] });
+}
+
+/* ---------------------------------------------------------------------------
+   Signature motion 2 — the headline boots: each line resolves from noise
+   into its words, left to right. The accessible name never changes.
+--------------------------------------------------------------------------- */
+function initDecode() {
+  const title = $('.hero__title');
+  if (!title || reduceMotion.matches) return;
+  title.setAttribute('aria-label', title.textContent.replace(/\s+/g, ' ').trim());
+  const GLYPHS = 'ABCDEFGHKLMNOPRSTUVXYZ01#/<>';
+
+  // Each character gets a slot locked to its final width, so the noise never
+  // moves anything else on the page (no layout shift).
+  const lines = $$('.hero__line', title).map((line) => {
+    const node = [...line.childNodes].find((n) => n.nodeType === Node.TEXT_NODE && n.textContent.trim());
+    if (!node) return null;
+    line.setAttribute('aria-hidden', 'true');
+    const frag = document.createDocumentFragment();
+    const slots = [...node.textContent].map((ch) => {
+      const span = document.createElement('span');
+      span.className = 'decode-slot';
+      span.textContent = ch;
+      frag.appendChild(span);
+      return { span, ch };
+    });
+    node.replaceWith(frag);
+    return slots;
+  }).filter(Boolean);
+
+  document.fonts.ready.then(() => {
+    lines.flat().forEach((s) => { s.span.style.width = `${s.span.getBoundingClientRect().width}px`; });
+    lines.forEach((slots, li) => {
+      const begin = performance.now() + 80 + li * 170;
+      const dur = 650 + slots.length * 35;
+      const frame = (now) => {
+        const t = Math.max(0, (now - begin) / dur);
+        const settled = Math.floor(t * slots.length);
+        slots.forEach(({ span, ch }, i) => {
+          span.textContent = i < settled || ch === ' ' ? ch : GLYPHS[Math.floor(Math.random() * GLYPHS.length)];
+        });
+        if (t < 1) { requestAnimationFrame(frame); return; }
+        // Settled: fold the slots back into one text node to restore kerning.
+        slots[0].span.before(document.createTextNode(slots.map((x) => x.ch).join('')));
+        slots.forEach(({ span }) => span.remove());
+      };
+      requestAnimationFrame(frame);
+    });
+  });
+}
+
 initHeader();
 initSystemMap();
 initFilters();
 initCommandMenu();
 initReveal();
 initCopy();
+initDecode();
+initPackets();
 $$('[data-year]').forEach((el) => { el.textContent = String(new Date().getFullYear()); });
 window.__ibuReady = true;
 requestAnimationFrame(() => document.documentElement.classList.add('is-ready'));
