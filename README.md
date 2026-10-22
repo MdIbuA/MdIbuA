@@ -4,7 +4,7 @@
 </p>
 
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=30&duration=3000&pause=1000&color=37BCF7&center=true&vCenter=true&width=850&height=60&lines=%F0%9F%9A%80+Mohamed+Ibrahim;%E2%9A%9B%EF%B8%8F+Quantum+Computing+Enthusiast;%F0%9F%A7%A0+AI+%26+ML+Explorer;%F0%9F%8C%90+Edge+%26+Cloud+Builder;%F0%9F%8E%93+GitHub+Campus+Expert+Aspirant"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=30&duration=3000&pause=1000&color=37BCF7&center=true&vCenter=true&width=850&height=60&lines=%F0%9F%9A%80+Mohamed+Ibrahim;%E2%9A%9B%EF%B8%8F+Quantum+Computing+Enthusiast;%F0%9F%A7%A0+AI+%26+ML+Explorer;%F0%9F%8C%90+Edge+%26+Cloud+Builder;%F0%9F%8E%93+GitHub+Campus+Expert+Aspirant"/>
 </h1>
 
 <p align="center">
@@ -18,20 +18,16 @@
 </p>
 
 <div align="center">
-  <img src="https://github.com/MdIbuA/MdIbuA/blob/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" width="80%" />
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" width="80%" />
 </div>
 
 <br/>
 
 <h2 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Coding+beyond+the+classical...;Toward+the+quantum%2C+the+cloud%2C+and+the+edge."/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Coding+beyond+the+classical...;Toward+the+quantum%2C+the+cloud%2C+and+the+edge."/>
 </h2>
 
 ## 🌌 About Me
-
-<table>
-<tr>
-<td width="60%">
 
 I'm a **Final year IT student** engineering the future at the intersection of:
 
@@ -42,13 +38,6 @@ I'm a **Final year IT student** engineering the future at the intersection of:
 I build apps, run tech workshops, contribute to open source, and chase a single mission — **Innovate. Inspire. Impact.**
 
 Currently working toward becoming a **GitHub Campus Expert**, helping peers explore cutting-edge tech through hands-on learning.
-
-</td>
-<td width="40%" align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=MdIbuA&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&icon_color=37BCF7&title_color=37BCF7" alt="GitHub Stats"/>
-</td>
-</tr>
-</table>
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12&height=2&width=100%"/>
@@ -100,7 +89,7 @@ Currently working toward becoming a **GitHub Campus Expert**, helping peers expl
 
 ## 🧪 Currently Exploring
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2500&pause=800&color=A8FF60&center=true&vCenter=true&width=700&height=120&multiline=true&lines=%E2%9A%9B%EF%B8%8F+Quantum+NLP+(QNLP)+using+Pennylane+%26+Qiskit;%F0%9F%93%B6+Edge-to-Cloud+Streaming+with+Lightweight+AI;%F0%9F%A7%AC+Neurosymbolic+AI+Architectures;%F0%9F%92%BC+Full-Stack+MERN+Project+Management+Systems" align="center"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2500&pause=800&color=A8FF60&center=true&vCenter=true&width=700&height=120&multiline=true&lines=%E2%9A%9B%EF%B8%8F+Quantum+NLP+(QNLP)+using+Pennylane+%26+Qiskit;%F0%9F%93%B6+Edge-to-Cloud+Streaming+with+Lightweight+AI;%F0%9F%A7%AC+Neurosymbolic+AI+Architectures;%F0%9F%92%BC+Full-Stack+MERN+Project+Management+Systems" align="center"/>
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12&height=2&width=100%"/>
@@ -109,7 +98,7 @@ Currently working toward becoming a **GitHub Campus Expert**, helping peers expl
 ## 📊 GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MdIbuA&theme=tokyonight&hide_border=true&background=0D1117&ring=37BCF7&fire=A8FF60" alt="GitHub Streak"/>
+  <img src="https://streak-stats.demolab.com/?user=MdIbuA&theme=tokyonight&hide_border=true&background=0D1117&ring=37BCF7&fire=A8FF60" alt="GitHub Streak"/>
 </p>
 
 <p align="center">
@@ -135,10 +124,10 @@ Currently working toward becoming a **GitHub Campus Expert**, helping peers expl
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=18&duration=4000&pause=1000&color=A8FF60&center=true&vCenter=true&width=600&lines=Dream+it.+Code+it.+Contribute+it.;Thanks+for+stopping+by+%E2%9C%A8;Let's+collaborate+on+something+quantum%21"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=18&duration=4000&pause=1000&color=A8FF60&center=true&vCenter=true&width=600&lines=Dream+it.+Code+it.+Contribute+it.;Thanks+for+stopping+by+%E2%9C%A8;Let's+collaborate+on+something+quantum%21"/>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/MdIbuA/Mohamed-Ibrahim-A/output/github-contribution-grid-snake-dark.svg" alt="Snake animation"/>
+<img src="https://raw.githubusercontent.com/MdIbuA/MdIbuA/output/github-contribution-grid-snake-dark.svg" alt="Snake animation"/>
 </p>
 
 <p align="center">
