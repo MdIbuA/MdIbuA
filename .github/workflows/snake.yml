@@ -31,7 +31,7 @@ jobs:
           sparse-checkout: .github/scripts
 
       - name: Generate activity graph
-        run: python repo/.github/scripts/activity_graph.py MdIbuA dist/activity-graph.svg 31
+        run: python3 repo/.github/scripts/activity_graph.py MdIbuA dist/activity-graph.svg 31
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
 
