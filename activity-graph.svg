@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-labelledby="t d">
+<title id="t">MdIbuA contribution activity</title>
+<desc id="d">Daily contributions for the last 31 days: 15 in total.</desc>
+<defs><linearGradient id="fill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#A8FF60" stop-opacity="0.35"/><stop offset="1" stop-color="#A8FF60" stop-opacity="0"/></linearGradient></defs>
+<rect width="1200" height="420" rx="12" fill="#0D1117"/>
+<g font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif">
+<text x="600.0" y="42" fill="#E6EDF3" font-size="22" font-weight="600" text-anchor="middle">Contribution activity — last 31 days</text>
+<text x="600.0" y="64" fill="#8B949E" font-size="14" text-anchor="middle">15 contributions · busiest day 7</text>
+<line x1="70" y1="360.0" x2="1170" y2="360.0" stroke="#21262D"/>
+<text x="58" y="364.0" fill="#8B949E" font-size="12" text-anchor="end">0</text>
+<line x1="70" y1="290.0" x2="1170" y2="290.0" stroke="#21262D"/>
+<text x="58" y="294.0" fill="#8B949E" font-size="12" text-anchor="end">2</text>
+<line x1="70" y1="220.0" x2="1170" y2="220.0" stroke="#21262D"/>
+<text x="58" y="224.0" fill="#8B949E" font-size="12" text-anchor="end">4</text>
+<line x1="70" y1="150.0" x2="1170" y2="150.0" stroke="#21262D"/>
+<text x="58" y="154.0" fill="#8B949E" font-size="12" text-anchor="end">6</text>
+<line x1="70" y1="80.0" x2="1170" y2="80.0" stroke="#21262D"/>
+<text x="58" y="84.0" fill="#8B949E" font-size="12" text-anchor="end">8</text>
+<line x1="70" y1="360" x2="1170" y2="360" stroke="#30363D"/>
+<path d="M70.0,360.0 L106.7,360.0 L143.3,360.0 L180.0,360.0 L216.7,325.0 L253.3,360.0 L290.0,360.0 L326.7,360.0 L363.3,360.0 L400.0,360.0 L436.7,360.0 L473.3,360.0 L510.0,360.0 L546.7,360.0 L583.3,360.0 L620.0,360.0 L656.7,360.0 L693.3,360.0 L730.0,360.0 L766.7,360.0 L803.3,360.0 L840.0,360.0 L876.7,360.0 L913.3,360.0 L950.0,360.0 L986.7,360.0 L1023.3,325.0 L1060.0,150.0 L1096.7,115.0 L1133.3,360.0 L1170.0,360.0 L1170.0,360 L70.0,360 Z" fill="url(#fill)"/>
+<path d="M70.0,360.0 L106.7,360.0 L143.3,360.0 L180.0,360.0 L216.7,325.0 L253.3,360.0 L290.0,360.0 L326.7,360.0 L363.3,360.0 L400.0,360.0 L436.7,360.0 L473.3,360.0 L510.0,360.0 L546.7,360.0 L583.3,360.0 L620.0,360.0 L656.7,360.0 L693.3,360.0 L730.0,360.0 L766.7,360.0 L803.3,360.0 L840.0,360.0 L876.7,360.0 L913.3,360.0 L950.0,360.0 L986.7,360.0 L1023.3,325.0 L1060.0,150.0 L1096.7,115.0 L1133.3,360.0 L1170.0,360.0" fill="none" stroke="#A8FF60" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="70.0" cy="360.0" r="3.5" fill="#FFFFFF"><title>2026-09-24: 0</title></circle>
+<text x="70.0" y="382" fill="#8B949E" font-size="12" text-anchor="middle">24</text>
+<circle cx="106.7" cy="360.0" r="3.5" fill="#FFFFFF"><title>2026-09-25: 0</title></circle>
+<text x="106.7" y="382" fill="#8B949E" font-size="12" text-anchor="middle">25</text>
+<circle cx="143.3" cy="360.0" r="3.5" fill="#FFFFFF"><title>2026-09-26: 0</title></circle>
+<text x="143.3" y="382" fill="#8B949E" font-size="12" text-anchor="middle">26</text>
+<circle cx="180.0" cy="360.0" r="3.5" fill="#FFFFFF"><title>2026-09-27: 0</title></circle>
+<text x="180.0" y="382" fill="#8B949E" font-size="12" text-anchor="middle">27</text>
+<circle cx="216.7" cy="325.0" r="3.5" fill="#FFFFFF"><title>2026-09-28: 1</title></circle>
+<text x="216.7" y="382" fill="#8B949E" font-size="12" text-anchor="middle">28</text>
+<circle cx="253.3" cy="360.0" r="3.5" fill="#FFFFFF"><title>2026-09-29: 0</title></circle>
+<text x="253.3" y="382" fill="#8B949E" font-size="12" text-anchor="middle">29</text>
+<circle cx="290.0" cy="360.0" r="3.5" fill="#FFFFFF"><title>2026-09-30: 0</title></circle>
+<text x="290.0" y="382" fill="#8B949E" font-size="12" text-anchor="middle">30</text>
+<circle cx="326.7" cy="360.0" r="3.5" fill="#FFFFFF"><title>2026-10-01: 0</title></circle>
+<text x="326.7" y="382" fill="#8B949E" font-size="12" text-anchor="middle">1</text>
+<circle cx="363.3" cy="360.0" r="3.5" fill="#FFFFFF"><title>2026-10-02: 0</title></circle>
+<text x="363.3" y="382" fill="#8B949E" font-size="12" text-anchor="middle">2</text>
+<circle cx="400.0" cy="360.0" r="3.5" fill="#FFFFFF"><title>2026-10-03: 0</title></circle>
+<text x="400.0" y="382" fill="#8B949E" font-size="12" text-anchor="middle">3</text>
+<circle cx="436.7" cy="360.0" r="3.5" fill="#FFFFFF"><title>2026-10-04: 0</title></circle>
+<text x="436.7" y="382" fill="#8B949E" font-size="12" text-anchor="middle">4</text>
+<circle cx="473.3" cy="360.0" r="3.5" fill="#FFFFFF"><title>2026-10-05: 0</title></circle>
+<text x="473.3" y="382" fill="#8B949E" font-size="12" text-anchor="middle">5</text>
+<circle cx="510.0" cy="360.0" r="3.5" fill="#FFFFFF"><title>2026-10-06: 0</title></circle>
+<text x="510.0" y="382" fill="#8B949E" font-size="12" text-anchor="middle">6</text>
+<circle cx="546.7" cy="360.0" r="3.5" fill="#FFFFFF"><title>2026-10-07: 0</title></circle>
+<text x="546.7" y="382" fill="#8B949E" font-size="12" text-anchor="middle">7</text>
+<circle cx="583.3" cy="360.0" r="3.5" fill="#FFFFFF"><title>2026-10-08: 0</title></circle>
+<text x="583.3" y="382" fill="#8B949E" font-size="12" text-anchor="middle">8</text>
+<circle cx="620.0" cy="360.0" r="3.5" fill="#FFFFFF"><title>2026-10-09: 0</title></circle>
+<text x="620.0" y="382" fill="#8B949E" font-size="12" text-anchor="middle">9</text>
+<circle cx="656.7" cy="360.0" r="3.5" fill="#FFFFFF"><title>2026-10-10: 0</title></circle>
+<text x="656.7" y="382" fill="#8B949E" font-size="12" text-anchor="middle">10</text>
+<circle cx="693.3" cy="360.0" r="3.5" fill="#FFFFFF"><title>2026-10-11: 0</title></circle>
+<text x="693.3" y="382" fill="#8B949E" font-size="12" text-anchor="middle">11</text>
+<circle cx="730.0" cy="360.0" r="3.5" fill="#FFFFFF"><title>2026-10-12: 0</title></circle>
+<text x="730.0" y="382" fill="#8B949E" font-size="12" text-anchor="middle">12</text>
+<circle cx="766.7" cy="360.0" r="3.5" fill="#FFFFFF"><title>2026-10-13: 0</title></circle>
+<text x="766.7" y="382" fill="#8B949E" font-size="12" text-anchor="middle">13</text>
+<circle cx="803.3" cy="360.0" r="3.5" fill="#FFFFFF"><title>2026-10-14: 0</title></circle>
+<text x="803.3" y="382" fill="#8B949E" font-size="12" text-anchor="middle">14</text>
+<circle cx="840.0" cy="360.0" r="3.5" fill="#FFFFFF"><title>2026-10-15: 0</title></circle>
+<text x="840.0" y="382" fill="#8B949E" font-size="12" text-anchor="middle">15</text>
+<circle cx="876.7" cy="360.0" r="3.5" fill="#FFFFFF"><title>2026-10-16: 0</title></circle>
+<text x="876.7" y="382" fill="#8B949E" font-size="12" text-anchor="middle">16</text>
+<circle cx="913.3" cy="360.0" r="3.5" fill="#FFFFFF"><title>2026-10-17: 0</title></circle>
+<text x="913.3" y="382" fill="#8B949E" font-size="12" text-anchor="middle">17</text>
+<circle cx="950.0" cy="360.0" r="3.5" fill="#FFFFFF"><title>2026-10-18: 0</title></circle>
+<text x="950.0" y="382" fill="#8B949E" font-size="12" text-anchor="middle">18</text>
+<circle cx="986.7" cy="360.0" r="3.5" fill="#FFFFFF"><title>2026-10-19: 0</title></circle>
+<text x="986.7" y="382" fill="#8B949E" font-size="12" text-anchor="middle">19</text>
+<circle cx="1023.3" cy="325.0" r="3.5" fill="#FFFFFF"><title>2026-10-20: 1</title></circle>
+<text x="1023.3" y="382" fill="#8B949E" font-size="12" text-anchor="middle">20</text>
+<circle cx="1060.0" cy="150.0" r="3.5" fill="#FFFFFF"><title>2026-10-21: 6</title></circle>
+<text x="1060.0" y="382" fill="#8B949E" font-size="12" text-anchor="middle">21</text>
+<circle cx="1096.7" cy="115.0" r="3.5" fill="#FFFFFF"><title>2026-10-22: 7</title></circle>
+<text x="1096.7" y="382" fill="#8B949E" font-size="12" text-anchor="middle">22</text>
+<circle cx="1133.3" cy="360.0" r="3.5" fill="#FFFFFF"><title>2026-10-23: 0</title></circle>
+<text x="1133.3" y="382" fill="#8B949E" font-size="12" text-anchor="middle">23</text>
+<circle cx="1170.0" cy="360.0" r="3.5" fill="#FFFFFF"><title>2026-10-24: 0</title></circle>
+<text x="1170.0" y="382" fill="#8B949E" font-size="12" text-anchor="middle">24</text>
+<text x="620.0" y="408" fill="#8B949E" font-size="13" text-anchor="middle">Day of month</text>
+<text transform="translate(20 220.0) rotate(-90)" fill="#8B949E" font-size="13" text-anchor="middle">Contributions</text>
+</g></svg>
