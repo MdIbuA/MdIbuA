@@ -118,7 +118,7 @@ Currently working toward becoming a **GitHub Campus Expert**, helping peers expl
   <a href="mailto:ibrahimanees.work@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  <a href="https://mdibua.github.io/MdIbuA/">
+  <a href="https://main.d1nj3qfdmf673t.amplifyapp.com/">
     <img src="https://img.shields.io/badge/Portfolio-Visit-C8F53A?style=for-the-badge&logoColor=black" alt="Portfolio website" />
   </a>
 </p>
