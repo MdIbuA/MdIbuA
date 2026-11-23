@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AirWise: a GenAI clean-air coach that helps families navigate winter smog with personalised routines, indoor air hacks and low-emission swaps.">
+  <title>AirWise — Smog-season clean-air coach</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <h1>AirWise <span aria-hidden="true">🌫️</span></h1>
+    <p>Your family's clean-air coach for smog season — personalised routines, indoor air hacks and low-emission swaps, with the impact of every choice explained.</p>
+  </header>
+
+  <main id="main">
+    <section aria-labelledby="form-heading" class="card">
+      <h2 id="form-heading">Tell us about your household</h2>
+      <form id="profile-form" novalidate>
+        <div class="field">
+          <label for="city">City or town <span class="req" aria-hidden="true">*</span></label>
+          <input id="city" name="city" type="text" required maxlength="80" autocomplete="address-level2" placeholder="e.g. Delhi, Lahore, Kraków" aria-describedby="city-hint">
+          <p id="city-hint" class="hint">We fetch live air quality and today's hourly forecast for this place.</p>
+        </div>
+
+        <div class="grid">
+          <div class="field">
+            <label for="householdSize">People at home</label>
+            <input id="householdSize" name="householdSize" type="number" min="1" max="20" value="4" inputmode="numeric">
+          </div>
+          <div class="field">
+            <label for="outdoorActivity">Outdoor exercise habit</label>
+            <select id="outdoorActivity" name="outdoorActivity">
+              <option value="low">Rarely</option>
+              <option value="moderate" selected>A few times a week</option>
+              <option value="high">Daily / intense</option>
+            </select>
+          </div>
+        </div>
+
+        <fieldset>
+          <legend>Who lives with you? <span class="hint">(select all that apply)</span></legend>
+          <label class="check"><input type="checkbox" name="hasChildren"> Children under 14</label>
+          <label class="check"><input type="checkbox" name="hasElderly"> Adults over 65</label>
+          <label class="check"><input type="checkbox" name="hasRespiratoryCondition"> Asthma, COPD or heart condition</label>
+          <label class="check"><input type="checkbox" name="isPregnant"> Someone pregnant</label>
+        </fieldset>
+
+        <div class="grid">
+          <div class="field">
+            <label for="commuteMode">Main daily commute</label>
+            <select id="commuteMode" name="commuteMode">
+              <option value="car_petrol">Petrol car</option>
+              <option value="car_diesel">Diesel car</option>
+              <option value="two_wheeler">Two-wheeler</option>
+              <option value="public_transport" selected>Bus / metro</option>
+              <option value="walk_cycle">Walk / cycle</option>
+              <option value="work_from_home">Work from home</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="commuteKm">One-way distance (km)</label>
+            <input id="commuteKm" name="commuteKm" type="number" min="0" max="200" step="0.5" value="10" inputmode="decimal">
+          </div>
+        </div>
+
+        <div class="grid">
+          <div class="field">
+            <label for="heating">Home heating</label>
+            <select id="heating" name="heating">
+              <option value="none">None</option>
+              <option value="electric">Electric heater</option>
+              <option value="heat_pump">Inverter AC / heat pump</option>
+              <option value="gas">Gas heater</option>
+              <option value="kerosene">Kerosene heater</option>
+              <option value="wood_coal">Wood / coal / angithi</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="cooking">Cooking fuel</label>
+            <select id="cooking" name="cooking">
+              <option value="lpg_png" selected>LPG / piped gas</option>
+              <option value="electric">Induction / electric</option>
+              <option value="kerosene">Kerosene</option>
+              <option value="biomass">Wood / dung / biomass</option>
+            </select>
+          </div>
+        </div>
+
+        <label class="check"><input type="checkbox" name="hasAirPurifier"> We have an air purifier</label>
+
+        <div class="field">
+          <label for="question">Anything specific you want to ask? <span class="hint">(optional)</span></label>
+          <textarea id="question" name="question" rows="3" maxlength="500" placeholder="e.g. Is it safe for my 6-year-old to play outside after school?"></textarea>
+        </div>
+
+        <details>
+          <summary>Live data not loading? Enter AQI manually</summary>
+          <div class="field">
+            <label for="manualAqi">US AQI value (0–500)</label>
+            <input id="manualAqi" name="manualAqi" type="number" min="0" max="500" inputmode="numeric">
+          </div>
+        </details>
+
+        <button type="submit" id="submit-btn">Get my clean-air plan</button>
+        <p id="form-error" class="error" role="alert" hidden></p>
+      </form>
+    </section>
+
+    <section id="results" aria-labelledby="results-heading" aria-live="polite" aria-busy="false" hidden>
+      <h2 id="results-heading" tabindex="-1">Your clean-air plan</h2>
+
+      <article class="card aqi-card" id="aqi-card"></article>
+      <article class="card" id="narrative-card"></article>
+
+      <article class="card">
+        <h3>Daily routine</h3>
+        <div id="routine"></div>
+      </article>
+
+      <article class="card">
+        <h3>Indoor air quality hacks</h3>
+        <ul id="indoor" class="items"></ul>
+      </article>
+
+      <article class="card">
+        <h3>Sustainable alternatives &amp; their impact</h3>
+        <p id="impact-summary" class="impact-summary"></p>
+        <ul id="alternatives" class="items"></ul>
+      </article>
+
+      <p class="disclaimer">AirWise gives general guidance, not medical advice. If anyone has breathing difficulty or chest pain, seek medical care.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Air data: Open-Meteo / Copernicus CAMS. Impact figures are approximate averages — see README for assumptions.</p>
+  </footer>
+</body>
+</html>

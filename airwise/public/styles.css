@@ -1,0 +1,169 @@
+:root {
+  --bg: #f5f7f8;
+  --surface: #ffffff;
+  --text: #1b1f23;
+  --muted: #4a5560;
+  --accent: #0b5cad;
+  --accent-text: #ffffff;
+  --border: #c9d1d9;
+  --error: #b00020;
+  --focus: #ffbf47;
+  --radius: 10px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.55;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #12161a;
+    --surface: #1c2228;
+    --text: #e8edf2;
+    --muted: #aab4bf;
+    --accent: #5aa9ff;
+    --accent-text: #0b1520;
+    --border: #36414c;
+    --error: #ff8a8a;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 1rem;
+}
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: 0;
+  background: var(--accent);
+  color: var(--accent-text);
+  padding: 0.5rem 1rem;
+  z-index: 10;
+}
+.skip-link:focus { left: 0.5rem; }
+
+:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.site-header, main, .site-footer {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.site-header h1 { margin-bottom: 0.25rem; }
+.site-header p, .hint, .site-footer, .disclaimer { color: var(--muted); }
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0 1rem;
+}
+
+.field { margin-bottom: 1rem; display: flex; flex-direction: column; }
+.field label { font-weight: 600; margin-bottom: 0.25rem; }
+.hint { font-size: 0.9rem; margin: 0.25rem 0 0; font-weight: 400; }
+.req { color: var(--error); }
+
+input, select, textarea, button {
+  font: inherit;
+  color: inherit;
+}
+
+input[type="text"], input[type="number"], select, textarea {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.6rem;
+  min-height: 44px;
+}
+
+fieldset {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin: 0 0 1rem;
+  padding: 0.75rem 1rem;
+}
+legend { font-weight: 600; padding: 0 0.25rem; }
+
+.check {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 44px;
+}
+.check input { width: 1.2rem; height: 1.2rem; }
+
+details { margin-bottom: 1rem; }
+summary { cursor: pointer; min-height: 44px; display: flex; align-items: center; }
+
+button {
+  background: var(--accent);
+  color: var(--accent-text);
+  border: none;
+  border-radius: 6px;
+  padding: 0.75rem 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  min-height: 44px;
+}
+button[disabled] { opacity: 0.65; cursor: progress; }
+
+.error { color: var(--error); font-weight: 600; }
+
+.aqi-card { border-left: 10px solid var(--band, var(--border)); }
+.aqi-value { font-size: 2.5rem; font-weight: 800; margin: 0; }
+.aqi-meta { color: var(--muted); margin: 0.25rem 0; }
+
+.badge {
+  display: inline-block;
+  padding: 0.1rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  border: 1px solid currentColor;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.badge.high { color: var(--error); }
+.badge.medium { color: #a15c00; }
+.badge.low { color: var(--muted); }
+@media (prefers-color-scheme: dark) { .badge.medium { color: #ffb74d; } }
+
+.items { list-style: none; padding: 0; margin: 0; }
+.items li { border-top: 1px solid var(--border); padding: 0.85rem 0; }
+.items li:first-child { border-top: none; }
+.items h4 { margin: 0 0 0.25rem; display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; }
+.items p { margin: 0.25rem 0; }
+.impact {
+  background: var(--bg);
+  border-radius: 6px;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.95rem;
+}
+
+.impact-summary { font-weight: 600; }
+
+.routine-slot h4 { margin: 0.75rem 0 0.25rem; }
+.routine-slot ul { margin: 0; padding-left: 1.25rem; }
+
+.source-note { font-size: 0.85rem; color: var(--muted); }
+
+@media (prefers-reduced-motion: no-preference) {
+  button { transition: filter 0.15s ease; }
+  button:hover { filter: brightness(1.1); }
+}
